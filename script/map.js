@@ -1,12 +1,12 @@
 /*crea la mappa e passa l'oggetto)*/
-function initmap(lat, lon, zoom)
+function initmap(lat, lon, zoom, obj)
 {
 var layerurl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 var	attr = 'Dati &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> sotto licenza ODBL';
 
 var tile = new L.TileLayer(layerurl, {maxZoom: 18, attribution: attr});
+var map= new L.Map('map', obj);
 
-var map = new L.Map('map', { zoomControl:false });
 map.setView(new L.LatLng(lat, lon), zoom);
 map.addLayer(tile);
 return map;
