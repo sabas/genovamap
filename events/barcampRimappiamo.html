@@ -92,7 +92,7 @@
 </body>
 
 <script>
-var map = initmap(44.412,8.931,16);
+var map = initmap(44.412,8.931,16, { zoomControl:false });
 
 
 var cat=
@@ -127,8 +127,6 @@ var iniziative=
     "id14": {"lat":"44.4100376", "lon":"8.9317304", "zoom":16, "title":"Associazione Abitanti della Maddalena", "text":"Associazione attiva nella riqualificazione del territorio <a href='http://www.amaddalena.org'>amaddalena.org</a>", 'cat': 'riqu'},
     "id15": {"lat":"44.410771", "lon":"8.8900889", "zoom":16, "title":"Cucina cultura", "text":"Tradizione ed innovazione nella cucina vegetariana", 'cat': 'arte'},
 }
-
-map.zoomControl=false;
 
 var sections = document.getElementsByTagName('section');
 
