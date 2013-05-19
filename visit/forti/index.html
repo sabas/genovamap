@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Forti</title>
+<link rel="stylesheet" href="../../script/leaflet.css" />
+<script type="text/javascript" src="../../script/leaflet.js"></script>
+<script type="text/javascript" src="../../script/map.js"></script>
+
+<script type="text/javascript" src="../../script/underscore-min.js"></script>
+<script type="text/javascript" src="../../script/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="../../script/jquery.geo.min.js"></script>
+<script type="text/javascript" src="../../script/jquery.debounce-1.0.5.js"></script>
+<link rel="stylesheet" href="../../script/sherlock.css" />
+
+<!-- data -->
+<script type="text/javascript" src="forti.min.js"></script>
+</head>
+
+<body class='section-0'>
+
+<div id='pane'>
+    <div id='map'></div>
+</div>
+
+<article>
+  <section id='cover' class='cover active'>
+    <h1>Forti di Genova</h1>
+    <p></p>
+    <small class='scroll'>Scroll con il mouse ▼</small>
+  </section>
+  <section id='77517522'>
+    <h2>Forte Castellaccio</h2>
+    <p></p>
+  </section>
+  <section id='13860317'>
+    <h2>Forte Sperone</h2>
+  </section>
+  <section id='15460418'>
+    <h2>Forte Begato</h2>
+  </section>
+  <section id='78197990'>
+    <h2>Forte Tenaglia</h2>
+  </section>
+  <section id='78197988'>
+    <h2>Forte Crocetta</h2>
+  </section>
+  <section id='154384153'>
+    <h2>Forte Belvedere</h2>
+  </section>
+  <section id='13860282'>
+    <h2>Forte Puin</h2>
+  </section>
+  <section id='13860294'>
+    <h2>Forte Fratello Minore</h2>
+  </section>
+  <section id='2065592330'>
+    <h2>Forte Fratello Maggiore</h2>
+  </section>
+  <section id='13860289'>
+    <h2>Forte Diamante</h2>
+  </section>
+  <section id='154339459'>
+    <h2>Forte San Giuliano</h2>
+  </section>
+  <section id='114730175'>
+    <h2>Forte San Martino</h2>
+  </section>  
+  <section id='13860276'>
+    <h2>Forte Santa Tecla</h2>
+  </section>
+  <section id='32700021'>
+    <h2>Forte Quezzi</h2>
+  </section>
+  <section id='19783033'>
+    <h2>Forte Richelieu</h2>
+  </section>
+  <section id='19783152'>
+    <h2>Forte Monteratti</h2>
+  </section>    
+</article>
+
+</body>
+
+<script>
+var map = initmap(44.412,8.931,12, { zoomControl:false });
+map.zoomControl=false;
+var layer, layer2;
+var select=0;
+
+function onEachFeature(feature, layer) { }
+
+
+layer=L.geoJson(test, {
+    onEachFeature: onEachFeature,
+     pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng, { radius:5 });
+    }
+}).addTo(map);
+
+
+var sections = document.getElementsByTagName('section');
+
+var setActive = function(index, ease) {
+
+  $.each(sections,function(i,s) { s.className = s.className.replace(' active', '') });
+  
+    sections[index].className += ' active';
+      document.body.className = 'section-' + index;
+      
+    $.each(test.features, function(i,v) {
+       
+        if (v.properties['@id']==sections[index].id)
+        {
+            select=sections[index].id;
+            if (typeof layer2!=="undefined")
+            layer2.clearLayers();
+            
+            layer2=L.geoJson(test, {
+                onEachFeature: onEachFeature,
+                 pointToLayer: function (feature, latlng) {
+                    return L.circleMarker(latlng, { radius:5 });
+                },
+                filter: function(feature, layer) {
+                            if (feature.properties["@id"]==select)
+                            {
+                                 return true;
+                            }
+                            return false;
+                        },
+                 style: function(feature) {
+                    if (feature.properties["@id"]==select)
+                    {
+                         return {color: "#ff0000"};
+                    }
+
+                 }
+            }).addTo(map);
+            
+
+         var obj;
+            if (v.geometry.type!="MultiPolygon")  obj= $.geo.centroid(v.geometry);
+            else
+            {
+            var temp={ type:"LineString", coordinates: v.geometry.coordinates[0][0]};
+            obj=$.geo.centroid(temp);
+            }
+            
+            console.log(obj);
+            var res=swap(obj.coordinates);
+
+            map.panTo(res);
+            map.setZoom(17);            
+
+        }
+    });
+
+      return true;
+};
+;
+window.onscroll = $.debounce(function() {
+  // IE 8
+  if (window.pageYOffset === undefined) {
+    var y = document.documentElement.scrollTop;
+    var h = document.documentElement.clientHeight;
+  } else {
+    var y = window.pageYOffset;
+    var h = window.innerHeight;
+  }
+
+  if (y === 0) return setActive(0, true);
+
+  var memo = 0;
+  var buffer = (h * 0.3333);
+
+  var active = _(sections).any(function(el, index) {
+    memo += el.offsetHeight;
+    return y < (memo-buffer) ? setActive(index, true) : false;
+  });
+
+
+  if (!active) setActive(sections.length - 1, true);
+},10);
+
+
+setActive(0, false);
+
+</script>
