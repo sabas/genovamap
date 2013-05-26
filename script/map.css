@@ -24,7 +24,13 @@ background-color:rgba(255,255,255,0.6) !important;
   right:0px;
   left:0px;
 }
+#content
+{
+clear:left;
+}
+a{text-decoration:none;}
 
+/*menu*/
 nav
 {
 width:100%;
@@ -37,10 +43,18 @@ width:100%;
 nav ul li
 {
 float:left;
-border: 1px solid red;
+/*border: 1px solid red;
 background-color:rgb(238,238,238);
-background-color:rgba(238,238,238,0.6) !important;
+background-color:rgba(238,238,238,0.6) !important;*/
 line-height:30px;
-width:98px;
+width:133px;
 text-align:center;
 }
+
+.color a {color:white;}
+.red{background-color:red; color:white;}
+.blue{background-color:blue; color:white;}
+.yellow{background-color:DarkGoldenRod; color:white;}
+.black{background-color:black; color:white;}
+.green{background-color:DarkGreen; color:white;}
+
