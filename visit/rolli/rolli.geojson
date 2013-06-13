@@ -1,0 +1,3425 @@
+var test = {
+  type: "FeatureCollection",
+  generator: "overpass-turbo",
+  copyright: "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  timestamp: "2013-05-01T14:57:03Z",
+  features: [{
+    type: "Feature",
+    properties: {
+      "@type": "relation",
+      "@id": 1285143,
+      amenity: "public_building",
+      building: "yes",
+      description: "sistema dei Rolli num. 1",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Prefettura - Palazzo Doria Spinola",
+      type: "multipolygon",
+      wikipedia: "it:Palazzo Doria-Spinola",
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "MultiPolygon",
+      coordinates: [
+        [
+          [
+            [8.9370246, 44.4098239],
+            [8.9372771, 44.4098134],
+            [8.9374494, 44.4098062],
+            [8.9375593, 44.4098491],
+            [8.9375856, 44.4101726],
+            [8.9374109, 44.4101799],
+            [8.9371134, 44.4101923],
+            [8.9370548, 44.4101947],
+            [8.937046, 44.4100866],
+            [8.9370246, 44.4098239]
+          ],
+          [
+            [8.9374322, 44.4100902],
+            [8.9372039, 44.4101005],
+            [8.9371891, 44.4099339],
+            [8.9374175, 44.4099236],
+            [8.9374322, 44.4100902]
+          ]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "relation",
+      "@id": 1524215,
+      building: "yes",
+      description: "sistema dei Rolli num. 10",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Lercari Parodi",
+      type: "multipolygon",
+      wikipedia: "it:Palazzo Lercari-Parodi",
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "MultiPolygon",
+      coordinates: [
+        [
+          [
+            [8.9341123, 44.4113265],
+            [8.9342342, 44.4112979],
+            [8.9342283, 44.4112851],
+            [8.934353, 44.4112559],
+            [8.9343588, 44.4112687],
+            [8.9344777, 44.4112408],
+            [8.9343065, 44.4108681],
+            [8.9342898, 44.4108317],
+            [8.9340966, 44.410877],
+            [8.9339244, 44.4109173],
+            [8.9341123, 44.4113265]
+          ],
+          [
+            [8.9341089, 44.4110612],
+            [8.9340504, 44.4109338],
+            [8.9342018, 44.4108984],
+            [8.9342603, 44.4110258],
+            [8.9341089, 44.4110612]
+          ],
+          [
+            [8.9343311, 44.4112084],
+            [8.9342065, 44.4112376],
+            [8.9341948, 44.4112121],
+            [8.9343194, 44.4111829],
+            [8.9343311, 44.4112084]
+          ]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "relation",
+      "@id": 1524216,
+      amenity: "townhall",
+      building: "yes",
+      description: "sistema dei Rolli num. 16",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Doria-Tursi",
+      type: "multipolygon",
+      wikipedia: "it:Palazzo Doria-Tursi",
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "MultiPolygon",
+      coordinates: [
+        [
+          [
+            [8.9324188, 44.4112817],
+            [8.9327053, 44.4112177],
+            [8.9327946, 44.4111961],
+            [8.933086, 44.4117773],
+            [8.9325846, 44.4118925],
+            [8.9323293, 44.4113371],
+            [8.9323133, 44.4113052],
+            [8.9324188, 44.4112817]
+          ],
+          [
+            [8.9328112, 44.4116066],
+            [8.9326726, 44.4116386],
+            [8.9325897, 44.411455],
+            [8.9327283, 44.4114231],
+            [8.9328112, 44.4116066]
+          ]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "relation",
+      "@id": 1524217,
+      building: "yes",
+      description: "sistema dei Rolli num. 8",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Pallavicini-Cambiaso",
+      type: "multipolygon",
+      wikipedia: "it:Palazzo Pallavicini-Cambiaso",
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "MultiPolygon",
+      coordinates: [
+        [
+          [
+            [8.9347393, 44.4109508],
+            [8.9346387, 44.4107487],
+            [8.9344717, 44.4107885],
+            [8.9343238, 44.4108239],
+            [8.9344262, 44.4110525],
+            [8.9344755, 44.4111626],
+            [8.9345594, 44.4111476],
+            [8.9347393, 44.4109508]
+          ],
+          [
+            [8.9345389, 44.4110322],
+            [8.9345093, 44.4109662],
+            [8.934606, 44.4109441],
+            [8.9346356, 44.4110101],
+            [8.9345389, 44.4110322]
+          ]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "relation",
+      "@id": 1524218,
+      building: "yes",
+      description: "sistema dei Rolli num. 36",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Spinola di Pellicceria",
+      tourism: "museum",
+      type: "multipolygon",
+      wikipedia: "it:Palazzo Spinola di Pellicceria",
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "MultiPolygon",
+      coordinates: [
+        [
+          [
+            [8.9301845, 44.4109444],
+            [8.9304665, 44.4109098],
+            [8.9304598, 44.4108224],
+            [8.9304532, 44.410735],
+            [8.9304464, 44.4106452],
+            [8.9301672, 44.4106492],
+            [8.9301845, 44.4109444]
+          ],
+          [
+            [8.9303993, 44.410737],
+            [8.9304059, 44.4108245],
+            [8.9303358, 44.4108272],
+            [8.9303291, 44.4107398],
+            [8.9303993, 44.410737]
+          ]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "relation",
+      "@id": 1524219,
+      alt_name: "Palazzo Doria",
+      building: "yes",
+      description: "sistema dei Rolli num. 13",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Gio Battista Spinola",
+      type: "multipolygon",
+      wikipedia: "it:Palazzo Gio Battista Spinola",
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "MultiPolygon",
+      coordinates: [
+        [
+          [
+            [8.9333895, 44.410716],
+            [8.9335027, 44.4109558],
+            [8.933654, 44.4109194],
+            [8.9338783, 44.4108654],
+            [8.933765, 44.4106255],
+            [8.9333895, 44.410716]
+          ],
+          [
+            [8.9335575, 44.4107598],
+            [8.9336742, 44.4107317],
+            [8.9336998, 44.410786],
+            [8.9335832, 44.4108141],
+            [8.9335575, 44.4107598]
+          ]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "relation",
+      "@id": 1524220,
+      building: "yes",
+      description: "sistema dei Rolli num. 12",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Angelo Giovanni Spinola",
+      type: "multipolygon",
+      wikipedia: "it:Palazzo Angelo Giovanni Spinola",
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "MultiPolygon",
+      coordinates: [
+        [
+          [
+            [8.9341149, 44.4113884],
+            [8.9339079, 44.4109207],
+            [8.9336706, 44.4109743],
+            [8.9335262, 44.4110069],
+            [8.9337332, 44.4114746],
+            [8.9338013, 44.4114592],
+            [8.9338191, 44.4114995],
+            [8.9340859, 44.4114392],
+            [8.9340681, 44.4113989],
+            [8.9341149, 44.4113884]
+          ],
+          [
+            [8.9338506, 44.4114149],
+            [8.9337527, 44.4111936],
+            [8.9338809, 44.4111646],
+            [8.9339789, 44.4113859],
+            [8.9338506, 44.4114149]
+          ]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "relation",
+      "@id": 1524221,
+      building: "yes",
+      description: "sistema dei Rolli num. 19",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      layer: "1",
+      name: "Palazzo Rosso",
+      tourism: "museum",
+      type: "multipolygon",
+      wikipedia: "it:Palazzo Rosso (Genova)",
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "MultiPolygon",
+      coordinates: [
+        [
+          [
+            [8.9318108, 44.4110415],
+            [8.9321263, 44.4109531],
+            [8.9322716, 44.4112626],
+            [8.9320931, 44.4113042],
+            [8.9319351, 44.4113421],
+            [8.931884, 44.4112256],
+            [8.9318666, 44.4111918],
+            [8.9318108, 44.4110415]
+          ],
+          [
+            [8.9319311, 44.4110514],
+            [8.9320246, 44.4110269],
+            [8.9320586, 44.4110931],
+            [8.9319651, 44.4111177],
+            [8.9319311, 44.4110514]
+          ]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "relation",
+      "@id": 1532374,
+      building: "yes",
+      description: "sistema dei Rolli num. 30",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Reale",
+      tourism: "museum",
+      type: "multipolygon",
+      wikipedia: "it:Palazzo Reale (Genova)",
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "MultiPolygon",
+      coordinates: [
+        [
+          [
+            [8.9258904, 44.4149587],
+            [8.9259709, 44.415038],
+            [8.926343, 44.4148452],
+            [8.9262171, 44.4147212],
+            [8.9260708, 44.4145771],
+            [8.9260518, 44.4145869],
+            [8.9258289, 44.4143674],
+            [8.9254676, 44.4145546],
+            [8.9257002, 44.4147837],
+            [8.9257084, 44.4147795],
+            [8.9258904, 44.4149587]
+          ],
+          [
+            [8.9257803, 44.4147306],
+            [8.9255827, 44.4145398],
+            [8.9257882, 44.4144311],
+            [8.9259859, 44.4146219],
+            [8.9259442, 44.4146439],
+            [8.9260381, 44.4147346],
+            [8.9258951, 44.4148102],
+            [8.9258012, 44.4147195],
+            [8.9257803, 44.4147306]
+          ]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "relation",
+      "@id": 1532375,
+      alt_name: "Palazzo Balbi-Senarega",
+      building: "yes",
+      description: "sistema dei Rolli num. 28",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Giacomo e Pantaleo Balbi",
+      type: "multipolygon",
+      wikipedia: "it:Palazzo Balbi-Senarega",
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "MultiPolygon",
+      coordinates: [
+        [
+          [
+            [8.9272313, 44.4140241],
+            [8.92695, 44.4141745],
+            [8.9271904, 44.4144039],
+            [8.927321, 44.4143341],
+            [8.9274852, 44.4142463],
+            [8.9272448, 44.4140169],
+            [8.9272313, 44.4140241]
+          ],
+          [
+            [8.9271945, 44.4140956],
+            [8.9272587, 44.4141568],
+            [8.9271425, 44.414219],
+            [8.9270783, 44.4141578],
+            [8.9271945, 44.4140956]
+          ]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "relation",
+      "@id": 1532405,
+      alt_name: "Palazzo della Meridiana",
+      building: "yes",
+      description: "sistema dei Rolli num. 20",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Gerolamo Grimaldi",
+      type: "multipolygon",
+      wikipedia: "it:Palazzo Gerolamo Grimaldi",
+      "@relations": []
+    },
+    geometry: {
+      type: "MultiPolygon",
+      coordinates: [
+        [
+          [
+            [8.9312481, 44.4119847],
+            [8.9316913, 44.4118999],
+            [8.9316351, 44.4117499],
+            [8.9315784, 44.4115987],
+            [8.9311351, 44.4116836],
+            [8.9312481, 44.4119847]
+          ],
+          [
+            [8.9313516, 44.4118507],
+            [8.9315098, 44.4118204],
+            [8.9314827, 44.4117482],
+            [8.9313246, 44.4117785],
+            [8.9313516, 44.4118507]
+          ]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "relation",
+      "@id": 1917383,
+      building: "yes",
+      description: "sistema dei Rolli num. 26",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo G. Agostino Balbi",
+      type: "multipolygon",
+      wikipedia: "it:Palazzo Durazzo-Pallavicini",
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "MultiPolygon",
+      coordinates: [
+        [
+          [
+            [8.9273993, 44.4143823],
+            [8.9272649, 44.4144535],
+            [8.9271687, 44.4145046],
+            [8.9270347, 44.4145756],
+            [8.9270503, 44.4145906],
+            [8.926944, 44.4146474],
+            [8.9269867, 44.4146882],
+            [8.9270928, 44.4146315],
+            [8.9271978, 44.4147326],
+            [8.9272273, 44.4147609],
+            [8.9271186, 44.4148186],
+            [8.9271673, 44.4148655],
+            [8.9272273, 44.4148336],
+            [8.9272925, 44.4148963],
+            [8.9274282, 44.4148244],
+            [8.9273832, 44.4147811],
+            [8.9273928, 44.414776],
+            [8.9274005, 44.4147833],
+            [8.927545, 44.4147067],
+            [8.9275547, 44.4147161],
+            [8.9275681, 44.414709],
+            [8.9275864, 44.4147266],
+            [8.9277272, 44.4146519],
+            [8.9277089, 44.4146343],
+            [8.9278155, 44.4145778],
+            [8.9278706, 44.4144372],
+            [8.9278641, 44.4144309],
+            [8.9277344, 44.4144997],
+            [8.927597, 44.4145725],
+            [8.9274564, 44.4144372],
+            [8.9275587, 44.4143826],
+            [8.927516, 44.4143418],
+            [8.9274139, 44.4143963],
+            [8.9273993, 44.4143823]
+          ],
+          [
+            [8.9274281, 44.4146105],
+            [8.9274937, 44.4146737],
+            [8.9273974, 44.4147247],
+            [8.9273318, 44.4146615],
+            [8.9274281, 44.4146105]
+          ]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 22977475,
+      building: "yes",
+      description: "sistema dei Rolli num. 18",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Bianco",
+      tourism: "museum",
+      wikipedia: "it:Palazzo Bianco",
+      "@relations": []
+    },
+    geometry: {
+      type: "Polygon",
+      coordinates: [
+        [
+          [8.931726, 44.4118475],
+          [8.9315523, 44.4114746],
+          [8.9316851, 44.411443],
+          [8.9318294, 44.4114087],
+          [8.9318839, 44.4113958],
+          [8.9319053, 44.4113907],
+          [8.9319234, 44.4114295],
+          [8.932079, 44.4117636],
+          [8.9319523, 44.4117937],
+          [8.9318762, 44.4116303],
+          [8.9317866, 44.4116516],
+          [8.9318627, 44.411815],
+          [8.931726, 44.4118475]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 22977576,
+      building: "yes",
+      description: "sistema dei Rolli num. 11",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Carrega Cataldi",
+      wikipedia: "it:Palazzo Carrega-Cataldi",
+      "@relations": []
+    },
+    geometry: {
+      type: "Polygon",
+      coordinates: [
+        [
+          [8.9339176, 44.4108576],
+          [8.9340832, 44.4108171],
+          [8.9342705, 44.4107713],
+          [8.9341253, 44.4104685],
+          [8.9340758, 44.4104806],
+          [8.9340651, 44.4104582],
+          [8.9338073, 44.4105213],
+          [8.933818, 44.4105437],
+          [8.9337724, 44.4105548],
+          [8.9339176, 44.4108576]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 22977675,
+      alt_name: "Palazzo Gambaro",
+      building: "yes",
+      description: "sistema dei Rolli num. 9",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Pantaleo Spinola",
+      wikipedia: "it:Palazzo Pantaleo Spinola",
+      "@relations": []
+    },
+    geometry: {
+      type: "Polygon",
+      coordinates: [
+        [
+          [8.934298, 44.4107824],
+          [8.9344415, 44.4107464],
+          [8.9346236, 44.4107006],
+          [8.9345105, 44.410471],
+          [8.934185, 44.4105528],
+          [8.934298, 44.4107824]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 22977705,
+      building: "yes",
+      description: "sistema dei Rolli num. 15",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Cattaneo Adorno",
+      wikipedia: "it:Palazzo Cattaneo-Adorno",
+      "@relations": []
+    },
+    geometry: {
+      type: "Polygon",
+      coordinates: [
+        [
+          [8.9331046, 44.4110511],
+          [8.9333013, 44.4110046],
+          [8.9334858, 44.410961],
+          [8.9333762, 44.4107247],
+          [8.9329951, 44.4108148],
+          [8.9331046, 44.4110511]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 22977719,
+      alt_name: "Palazzo Campanella",
+      building: "yes",
+      description: "sistema dei Rolli num. 17",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Baldassarre Lomellini",
+      wikipedia: "it:Palazzo Baldassarre Lomellini",
+      "@relations": []
+    },
+    geometry: {
+      type: "Polygon",
+      coordinates: [
+        [
+          [8.9327768, 44.4111296],
+          [8.9329183, 44.4110958],
+          [8.9330763, 44.4110581],
+          [8.9329279, 44.410741],
+          [8.9326284, 44.4108126],
+          [8.9327768, 44.4111296]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 22977884,
+      building: "yes",
+      description: "sistema dei Rolli num. 14",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Podestà",
+      wikipedia: "it:Palazzo Podestà",
+      "@relations": []
+    },
+    geometry: {
+      type: "Polygon",
+      coordinates: [
+        [
+          [8.9336351, 44.4112789],
+          [8.9335137, 44.4110092],
+          [8.9333448, 44.411048],
+          [8.933227, 44.4110772],
+          [8.9332481, 44.4111241],
+          [8.9333474, 44.411345],
+          [8.9334615, 44.4113188],
+          [8.9334281, 44.4112445],
+          [8.9334953, 44.4112291],
+          [8.9335287, 44.4113034],
+          [8.9336351, 44.4112789]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 23608493,
+      building: "yes",
+      description: "sistema dei Rolli num.  42",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo De Marini Croce",
+      url: "http://www.irolli.it/genova_unesco/palazzo/piazza_de_marini_1.html",
+      wikipedia: "it:Palazzo De Marini-Croce",
+      "@relations": []
+    },
+    geometry: {
+      type: "Polygon",
+      coordinates: [
+        [
+          [8.929137, 44.408906],
+          [8.9291004, 44.4086935],
+          [8.9294621, 44.4086127],
+          [8.9295312, 44.4088237],
+          [8.9293562, 44.4088457],
+          [8.9293634, 44.4088799],
+          [8.929137, 44.408906]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 23856074,
+      building: "yes",
+      description: "sistema dei Rolli num. 2",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Clemente della Rovere",
+      wikipedia: "it:Palazzo Clemente Della Rovere",
+      "@relations": []
+    },
+    geometry: {
+      type: "Polygon",
+      coordinates: [
+        [
+          [8.9364777, 44.4096838],
+          [8.9362156, 44.4098062],
+          [8.9360611, 44.4095966],
+          [8.9358275, 44.4096873],
+          [8.9359925, 44.4099104],
+          [8.9361322, 44.4098505],
+          [8.9361959, 44.4099174],
+          [8.9362515, 44.4099756],
+          [8.936541, 44.4098233],
+          [8.9364777, 44.4096838]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 41725189,
+      building: "yes",
+      description: "sistema dei Rolli num. 27",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Gio Francesco Balbi",
+      wikipedia: "it:Palazzo Gio Francesco Balbi",
+      "@relations": []
+    },
+    geometry: {
+      type: "Polygon",
+      coordinates: [
+        [
+          [8.9278762, 44.4139044],
+          [8.9279723, 44.4139961],
+          [8.9276699, 44.4141627],
+          [8.9274614, 44.4141172],
+          [8.92752, 44.4139416],
+          [8.9277158, 44.4139875],
+          [8.9278762, 44.4139044]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 76035010,
+      building: "yes",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Ambrogio De Nigro",
+      note: "sistema dei Rolli num. 40",
+      wikipedia: "it:Palazzo Ambrogio Di Negro",
+      "@relations": []
+    },
+    geometry: {
+      type: "Polygon",
+      coordinates: [
+        [
+          [8.9296433, 44.409687],
+          [8.9297479, 44.4097041],
+          [8.9297469, 44.4097206],
+          [8.9298326, 44.4097371],
+          [8.9298314, 44.409751],
+          [8.9299226, 44.4097641],
+          [8.9299301, 44.4095769],
+          [8.9299305, 44.4094784],
+          [8.9299309, 44.4093961],
+          [8.929749, 44.4093931],
+          [8.9297185, 44.4095033],
+          [8.9297892, 44.4095043],
+          [8.9297875, 44.4095616],
+          [8.9297009, 44.4095606],
+          [8.9296433, 44.409687]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 76035022,
+      building: "yes",
+      description: "sistema dei Rolli num. 37",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Gio Batta Grimaldi",
+      wikipedia: "it:Palazzo Gio Battista Grimaldi (vico San Luca)",
+      "@relations": []
+    },
+    geometry: {
+      type: "Polygon",
+      coordinates: [
+        [
+          [8.9300556, 44.4105141],
+          [8.9304343, 44.410506],
+          [8.9304357, 44.4106205],
+          [8.9300556, 44.4106276],
+          [8.9300556, 44.4105141]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 106971520,
+      building: "yes",
+      description: "sistema dei Rolli num. 21",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Gio Carlo Brignole",
+      url: "http://www.irolli.it/genova_unesco/palazzo/piazza_della_meridiana_2.html",
+      wikipedia: "it:Palazzo Gio Carlo Brignole",
+      "@relations": []
+    },
+    geometry: {
+      type: "Polygon",
+      coordinates: [
+        [
+          [8.9312307, 44.4115648],
+          [8.931366, 44.4115124],
+          [8.9315013, 44.41146],
+          [8.9313111, 44.4112093],
+          [8.9310404, 44.4113142],
+          [8.9312307, 44.4115648]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 107714384,
+      building: "yes",
+      description: "sistema dei Rolli num. 29",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      layer: "1",
+      name: "Palazzo Francesco Balbi Piovera",
+      wikipedia: "it:Palazzo Francesco Maria Balbi Piovera",
+      "@relations": []
+    },
+    geometry: {
+      type: "Polygon",
+      coordinates: [
+        [
+          [8.9269368, 44.4145269],
+          [8.926675, 44.4142742],
+          [8.9265804, 44.4143242],
+          [8.9266958, 44.4144356],
+          [8.9266199, 44.4144757],
+          [8.9265045, 44.4143644],
+          [8.9263883, 44.4144257],
+          [8.9266501, 44.4146784],
+          [8.9267931, 44.4146029],
+          [8.9269368, 44.4145269]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 107716422,
+      building: "yes",
+      description: "sistema dei Rolli num. 23",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Lomellini Doria Lamba",
+      url: "website  {http://www.irolli.it/genova_unesco/palazzo/via_cairoli_18.html=1}",
+      wikipedia: "it:Palazzo Lomellini-Doria Lamba",
+      "@relations": []
+    },
+    geometry: {
+      type: "Polygon",
+      coordinates: [
+        [
+          [8.929929, 44.4132239],
+          [8.9299329, 44.4131166],
+          [8.9299364, 44.4129944],
+          [8.9294315, 44.413098],
+          [8.929476, 44.4133286],
+          [8.929929, 44.4132239]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 107716424,
+      building: "yes",
+      description: "sistema dei Rolli num. 25",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Belimbau",
+      wikipedia: "it:Palazzo Belimbau",
+      "@relations": []
+    },
+    geometry: {
+      type: "Polygon",
+      coordinates: [
+        [
+          [8.9279, 44.4136702],
+          [8.9285109, 44.4135161],
+          [8.9284525, 44.413398],
+          [8.928344, 44.4134254],
+          [8.9283221, 44.4133811],
+          [8.9281563, 44.4134229],
+          [8.928179, 44.4134688],
+          [8.9280113, 44.4135111],
+          [8.9280032, 44.4134947],
+          [8.9278343, 44.4135373],
+          [8.9279, 44.4136702]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 107718550,
+      building: "yes",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      layer: "1",
+      name: "Palazzo Emanuele Filiberto Di Negro",
+      note: "sistema dei Rolli num. 41",
+      wikipedia: "it:Palazzo Emanuele Filiberto Di Negro",
+      "@relations": []
+    },
+    geometry: {
+      type: "Polygon",
+      coordinates: [
+        [
+          [8.9292058, 44.4096043],
+          [8.9294401, 44.4096214],
+          [8.9294457, 44.4095997],
+          [8.9296428, 44.409628],
+          [8.9296889, 44.4095153],
+          [8.9297154, 44.4093961],
+          [8.9294646, 44.409402],
+          [8.929215, 44.4094078],
+          [8.9292123, 44.409465],
+          [8.9292058, 44.4096043]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 153185249,
+      building: "yes",
+      description: "sistema dei Rolli num. 5",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: 'Palazzo Giacomo Spinola "dei Marmi"',
+      wikipedia: "it:Palazzo Giacomo Spinola",
+      "@relations": []
+    },
+    geometry: {
+      type: "Polygon",
+      coordinates: [
+        [
+          [8.9352505, 44.4099396],
+          [8.9354832, 44.4098091],
+          [8.9355809, 44.4098872],
+          [8.9355518, 44.4099022],
+          [8.9356205, 44.4099653],
+          [8.935446, 44.4100775],
+          [8.935317, 44.4099865],
+          [8.9352505, 44.4099396]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 164326908,
+      building: "yes",
+      description: "sistema dei Rolli num. 31",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Cosma Centurione",
+      website: "http://www.irolli.it/genova_unesco/palazzo/via_lomellini_8.html",
+      wikipedia: "it:Palazzo Cosma Centurione",
+      "@relations": []
+    },
+    geometry: {
+      type: "Polygon",
+      coordinates: [
+        [
+          [8.9289704, 44.4128802],
+          [8.9291415, 44.4128379],
+          [8.9293537, 44.4128014],
+          [8.9293466, 44.4127067],
+          [8.9293389, 44.4126052],
+          [8.9291859, 44.4126416],
+          [8.9291897, 44.4126503],
+          [8.9288727, 44.4127432],
+          [8.9289704, 44.4128802]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 164326910,
+      building: "yes",
+      description: "sistema dei Rolli num. 34",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Cipriano Pallavicini",
+      wikipedia: "it:Palazzo Gio Battista Centurione",
+      "@relations": []
+    },
+    geometry: {
+      type: "Polygon",
+      coordinates: [
+        [
+          [8.9288896, 44.4120812],
+          [8.9290536, 44.412018],
+          [8.9289962, 44.4119252],
+          [8.9289385, 44.4118319],
+          [8.9287221, 44.4118477],
+          [8.9287116, 44.4118552],
+          [8.9288896, 44.4120812]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 164425515,
+      building: "yes",
+      description: "sistema dei Rolli num. 4",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Tomaso Spinola",
+      wikipedia: "it:Palazzo Tommaso Spinola",
+      "@relations": []
+    },
+    geometry: {
+      type: "Polygon",
+      coordinates: [
+        [
+          [8.9357299, 44.4101969],
+          [8.9357933, 44.4101723],
+          [8.9358696, 44.4101428],
+          [8.9356994, 44.4099648],
+          [8.9356062, 44.4100079],
+          [8.9357299, 44.4101969]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 164425517,
+      building: "yes",
+      description: "sistema dei Rolli num. 3",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Giorgio Spinola",
+      wikipedia: "it:Palazzo Giorgio Spinola",
+      "@relations": []
+    },
+    geometry: {
+      type: "Polygon",
+      coordinates: [
+        [
+          [8.9359931, 44.4103913],
+          [8.9361098, 44.4103665],
+          [8.9360557, 44.4101209],
+          [8.9358329, 44.4101979],
+          [8.9356594, 44.4102673],
+          [8.9359055, 44.4105201],
+          [8.9359931, 44.4104846],
+          [8.9358536, 44.4103287],
+          [8.9359284, 44.4103019],
+          [8.9359931, 44.4103913]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 164570196,
+      building: "yes",
+      description: "sistema dei Rolli num. 6",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Negrone (Agostino Ayrolo)",
+      wikipedia: "it:Palazzo Negrone",
+      "@relations": []
+    },
+    geometry: {
+      type: "Polygon",
+      coordinates: [
+        [
+          [8.9351978, 44.4103559],
+          [8.9354658, 44.4104461],
+          [8.9352897, 44.4106881],
+          [8.935156, 44.4106397],
+          [8.9350878, 44.4107324],
+          [8.9349623, 44.410693],
+          [8.9350197, 44.4106088],
+          [8.935129, 44.4104557],
+          [8.9351978, 44.4103559]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 164570452,
+      building: "yes",
+      description: "sistema dei Rolli num. 7",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Paolo Battista e Nicolò Interiano",
+      wikipedia: "it:Palazzo Paolo Battista e Niccolò Interiano",
+      "@relations": []
+    },
+    geometry: {
+      type: "Polygon",
+      coordinates: [
+        [
+          [8.9348347, 44.4108816],
+          [8.9348982, 44.4107878],
+          [8.9349623, 44.410693],
+          [8.9350878, 44.4107324],
+          [8.935182, 44.4107641],
+          [8.9350316, 44.4110037],
+          [8.934852, 44.4109512],
+          [8.9348866, 44.4109017],
+          [8.9348347, 44.4108816]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 164570793,
+      building: "yes",
+      description: "sistema dei Rolli num. 22",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Bartolomeo Lomellini",
+      wikipedia: "it:Palazzo Bartolomeo Lomellini",
+      "@relations": []
+    },
+    geometry: {
+      type: "Polygon",
+      coordinates: [
+        [
+          [8.9299206, 44.4137125],
+          [8.9299809, 44.4134828],
+          [8.9301704, 44.4134895],
+          [8.9303613, 44.4134962],
+          [8.9303398, 44.4137381],
+          [8.9299206, 44.4137125]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 164571099,
+      building: "yes",
+      description: "sistema dei Rolli num. 24",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Giacomo Lomellini",
+      wikipedia: "it:Palazzo Giacomo Lomellini",
+      "@relations": []
+    },
+    geometry: {
+      type: "Polygon",
+      coordinates: [
+        [
+          [8.9298245, 44.4137629],
+          [8.9299153, 44.4135227],
+          [8.9296742, 44.4134331],
+          [8.9296238, 44.4134146],
+          [8.9294489, 44.4134623],
+          [8.9293873, 44.4137],
+          [8.9298245, 44.4137629]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 164571713,
+      building: "yes",
+      description: "sistema dei Rolli num. 33",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Gio Battista Centurione",
+      wikipedia: "it:Palazzo Gio Battista Centurione",
+      "@relations": []
+    },
+    geometry: {
+      type: "Polygon",
+      coordinates: [
+        [
+          [8.9292138, 44.4120351],
+          [8.9291325, 44.4120645],
+          [8.9290048, 44.4121105],
+          [8.9290876, 44.4122126],
+          [8.9292336, 44.4121492],
+          [8.9292138, 44.4120351]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 164571806,
+      building: "yes",
+      description: "sistema dei Rolli num. 32",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Giorgio Centurione",
+      wikipedia: "it:Palazzo Giorgio Centurione",
+      "@relations": []
+    },
+    geometry: {
+      type: "Polygon",
+      coordinates: [
+        [
+          [8.929319, 44.412183],
+          [8.9294663, 44.4121661],
+          [8.929511, 44.4123192],
+          [8.9293453, 44.4123342],
+          [8.929332, 44.4122575],
+          [8.929319, 44.412183]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 164571807,
+      amenity: "Unesco_world_heritage",
+      building: "yes",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Nicolò Spinola di San Luca",
+      note: "sistema dei Rolli num. 35",
+      wikipedia: "it:Palazzo Nicolò Spinola",
+      "@relations": []
+    },
+    geometry: {
+      type: "Polygon",
+      coordinates: [
+        [
+          [8.929811, 44.411248],
+          [8.9298144, 44.4111646],
+          [8.9298304, 44.4111011],
+          [8.9297173, 44.4111047],
+          [8.9297102, 44.4112403],
+          [8.929811, 44.411248]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 164572586,
+      amenity: "Unesco_world_heritage",
+      building: "yes",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Gio Battista Grimaldi",
+      note: "sistema dei Rolli num. 38",
+      wikipedia: "it:Palazzo Gio Battista Grimaldi (piazza San Luca)",
+      "@relations": []
+    },
+    geometry: {
+      type: "Polygon",
+      coordinates: [
+        [
+          [8.9299132, 44.4103271],
+          [8.9299253, 44.4102289],
+          [8.9302, 44.4102679],
+          [8.9301838, 44.4103458],
+          [8.9300425, 44.410336],
+          [8.9299132, 44.4103271]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 164572591,
+      amenity: "Unesco_world_heritage",
+      building: "yes",
+      heritage: "1",
+      "heritage:operator": "whc",
+      historic: "heritage",
+      name: "Palazzo Stefano De Mari",
+      note: "sistema dei Rolli num. 39",
+      wikipedia: "it:Palazzo Stefano De Mari",
+      "@relations": []
+    },
+    geometry: {
+      type: "Polygon",
+      coordinates: [
+        [
+          [8.9299322, 44.4102075],
+          [8.9299404, 44.4101322],
+          [8.9299484, 44.4100585],
+          [8.9300577, 44.4100665],
+          [8.9300456, 44.4102169],
+          [8.9299322, 44.4102075]
+        ]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 22977475,
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.931726, 44.4118475],
+        [8.9315523, 44.4114746],
+        [8.9316851, 44.411443],
+        [8.9318294, 44.4114087],
+        [8.9318839, 44.4113958],
+        [8.9319053, 44.4113907],
+        [8.9319234, 44.4114295],
+        [8.932079, 44.4117636],
+        [8.9319523, 44.4117937],
+        [8.9318762, 44.4116303],
+        [8.9317866, 44.4116516],
+        [8.9318627, 44.411815],
+        [8.931726, 44.4118475]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 22977576,
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9339176, 44.4108576],
+        [8.9340832, 44.4108171],
+        [8.9342705, 44.4107713],
+        [8.9341253, 44.4104685],
+        [8.9340758, 44.4104806],
+        [8.9340651, 44.4104582],
+        [8.9338073, 44.4105213],
+        [8.933818, 44.4105437],
+        [8.9337724, 44.4105548],
+        [8.9339176, 44.4108576]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 22977613,
+      "@mp_outline": true,
+      "@relations": [{
+        role: "outer",
+        rel: 1524217,
+        reltags: {
+          building: "yes",
+          description: "sistema dei Rolli num. 8",
+          heritage: "1",
+          "heritage:operator": "whc",
+          historic: "heritage",
+          name: "Palazzo Pallavicini-Cambiaso",
+          type: "multipolygon",
+          wikipedia: "it:Palazzo Pallavicini-Cambiaso"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9347393, 44.4109508],
+        [8.9346387, 44.4107487],
+        [8.9344717, 44.4107885],
+        [8.9343238, 44.4108239],
+        [8.9344262, 44.4110525],
+        [8.9344755, 44.4111626],
+        [8.9345594, 44.4111476],
+        [8.9347393, 44.4109508]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 22977629,
+      "@mp_outline": true,
+      "@relations": [{
+        role: "outer",
+        rel: 1524215,
+        reltags: {
+          building: "yes",
+          description: "sistema dei Rolli num. 10",
+          heritage: "1",
+          "heritage:operator": "whc",
+          historic: "heritage",
+          name: "Palazzo Lercari Parodi",
+          type: "multipolygon",
+          wikipedia: "it:Palazzo Lercari-Parodi"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9341123, 44.4113265],
+        [8.9342342, 44.4112979],
+        [8.9342283, 44.4112851],
+        [8.934353, 44.4112559],
+        [8.9343588, 44.4112687],
+        [8.9344777, 44.4112408],
+        [8.9343065, 44.4108681],
+        [8.9342898, 44.4108317],
+        [8.9340966, 44.410877],
+        [8.9339244, 44.4109173],
+        [8.9341123, 44.4113265]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 22977653,
+      "@mp_outline": true,
+      "@relations": [{
+        role: "outer",
+        rel: 1524220,
+        reltags: {
+          building: "yes",
+          description: "sistema dei Rolli num. 12",
+          heritage: "1",
+          "heritage:operator": "whc",
+          historic: "heritage",
+          name: "Palazzo Angelo Giovanni Spinola",
+          type: "multipolygon",
+          wikipedia: "it:Palazzo Angelo Giovanni Spinola"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9341149, 44.4113884],
+        [8.9339079, 44.4109207],
+        [8.9336706, 44.4109743],
+        [8.9335262, 44.4110069],
+        [8.9337332, 44.4114746],
+        [8.9338013, 44.4114592],
+        [8.9338191, 44.4114995],
+        [8.9340859, 44.4114392],
+        [8.9340681, 44.4113989],
+        [8.9341149, 44.4113884]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 22977675,
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }, {
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.934298, 44.4107824],
+        [8.9344415, 44.4107464],
+        [8.9346236, 44.4107006],
+        [8.9345105, 44.410471],
+        [8.934185, 44.4105528],
+        [8.934298, 44.4107824]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 22977685,
+      "@mp_outline": true,
+      "@relations": [{
+        role: "outer",
+        rel: 1524219,
+        reltags: {
+          alt_name: "Palazzo Doria",
+          building: "yes",
+          description: "sistema dei Rolli num. 13",
+          heritage: "1",
+          "heritage:operator": "whc",
+          historic: "heritage",
+          name: "Palazzo Gio Battista Spinola",
+          type: "multipolygon",
+          wikipedia: "it:Palazzo Gio Battista Spinola"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9333895, 44.410716],
+        [8.9335027, 44.4109558],
+        [8.933654, 44.4109194],
+        [8.9338783, 44.4108654],
+        [8.933765, 44.4106255],
+        [8.9333895, 44.410716]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 22977705,
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9331046, 44.4110511],
+        [8.9333013, 44.4110046],
+        [8.9334858, 44.410961],
+        [8.9333762, 44.4107247],
+        [8.9329951, 44.4108148],
+        [8.9331046, 44.4110511]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 22977719,
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9327768, 44.4111296],
+        [8.9329183, 44.4110958],
+        [8.9330763, 44.4110581],
+        [8.9329279, 44.410741],
+        [8.9326284, 44.4108126],
+        [8.9327768, 44.4111296]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 22977840,
+      "@mp_outline": true,
+      "@relations": [{
+        role: "outer",
+        rel: 1524221,
+        reltags: {
+          building: "yes",
+          description: "sistema dei Rolli num. 19",
+          heritage: "1",
+          "heritage:operator": "whc",
+          historic: "heritage",
+          layer: "1",
+          name: "Palazzo Rosso",
+          tourism: "museum",
+          type: "multipolygon",
+          wikipedia: "it:Palazzo Rosso (Genova)"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9318108, 44.4110415],
+        [8.9321263, 44.4109531],
+        [8.9322716, 44.4112626],
+        [8.9320931, 44.4113042],
+        [8.9319351, 44.4113421],
+        [8.931884, 44.4112256],
+        [8.9318666, 44.4111918],
+        [8.9318108, 44.4110415]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 22977884,
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9336351, 44.4112789],
+        [8.9335137, 44.4110092],
+        [8.9333448, 44.411048],
+        [8.933227, 44.4110772],
+        [8.9332481, 44.4111241],
+        [8.9333474, 44.411345],
+        [8.9334615, 44.4113188],
+        [8.9334281, 44.4112445],
+        [8.9334953, 44.4112291],
+        [8.9335287, 44.4113034],
+        [8.9336351, 44.4112789]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 22978034,
+      "@mp_outline": true,
+      "@relations": [{
+        role: "outer",
+        rel: 1532374,
+        reltags: {
+          building: "yes",
+          description: "sistema dei Rolli num. 30",
+          heritage: "1",
+          "heritage:operator": "whc",
+          historic: "heritage",
+          name: "Palazzo Reale",
+          tourism: "museum",
+          type: "multipolygon",
+          wikipedia: "it:Palazzo Reale (Genova)"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9258904, 44.4149587],
+        [8.9259709, 44.415038],
+        [8.926343, 44.4148452],
+        [8.9262171, 44.4147212],
+        [8.9260708, 44.4145771],
+        [8.9260518, 44.4145869],
+        [8.9258289, 44.4143674],
+        [8.9254676, 44.4145546],
+        [8.9257002, 44.4147837],
+        [8.9257084, 44.4147795],
+        [8.9258904, 44.4149587]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 22985198,
+      "@mp_outline": true,
+      "@relations": [{
+        role: "outer",
+        rel: 1524218,
+        reltags: {
+          building: "yes",
+          description: "sistema dei Rolli num. 36",
+          heritage: "1",
+          "heritage:operator": "whc",
+          historic: "heritage",
+          name: "Palazzo Spinola di Pellicceria",
+          tourism: "museum",
+          type: "multipolygon",
+          wikipedia: "it:Palazzo Spinola di Pellicceria"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9301845, 44.4109444],
+        [8.9304665, 44.4109098],
+        [8.9304598, 44.4108224],
+        [8.9304532, 44.410735],
+        [8.9304464, 44.4106452],
+        [8.9301672, 44.4106492],
+        [8.9301845, 44.4109444]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 23608493,
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.929137, 44.408906],
+        [8.9291004, 44.4086935],
+        [8.9294621, 44.4086127],
+        [8.9295312, 44.4088237],
+        [8.9293562, 44.4088457],
+        [8.9293634, 44.4088799],
+        [8.929137, 44.408906]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 23856074,
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9364777, 44.4096838],
+        [8.9362156, 44.4098062],
+        [8.9360611, 44.4095966],
+        [8.9358275, 44.4096873],
+        [8.9359925, 44.4099104],
+        [8.9361322, 44.4098505],
+        [8.9361959, 44.4099174],
+        [8.9362515, 44.4099756],
+        [8.936541, 44.4098233],
+        [8.9364777, 44.4096838]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 24040795,
+      "@mp_outline": true,
+      "@relations": [{
+        role: "outer",
+        rel: 1285143,
+        reltags: {
+          amenity: "public_building",
+          building: "yes",
+          description: "sistema dei Rolli num. 1",
+          heritage: "1",
+          "heritage:operator": "whc",
+          historic: "heritage",
+          name: "Prefettura - Palazzo Doria Spinola",
+          type: "multipolygon",
+          wikipedia: "it:Palazzo Doria-Spinola"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9370246, 44.4098239],
+        [8.9372771, 44.4098134],
+        [8.9374494, 44.4098062],
+        [8.9375593, 44.4098491],
+        [8.9375856, 44.4101726],
+        [8.9374109, 44.4101799],
+        [8.9371134, 44.4101923],
+        [8.9370548, 44.4101947],
+        [8.937046, 44.4100866],
+        [8.9370246, 44.4098239]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 41725188,
+      "@mp_outline": true,
+      "@relations": [{
+        role: "outer",
+        rel: 1532375,
+        reltags: {
+          alt_name: "Palazzo Balbi-Senarega",
+          building: "yes",
+          description: "sistema dei Rolli num. 28",
+          heritage: "1",
+          "heritage:operator": "whc",
+          historic: "heritage",
+          name: "Palazzo Giacomo e Pantaleo Balbi",
+          type: "multipolygon",
+          wikipedia: "it:Palazzo Balbi-Senarega"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9272313, 44.4140241],
+        [8.92695, 44.4141745],
+        [8.9271904, 44.4144039],
+        [8.927321, 44.4143341],
+        [8.9274852, 44.4142463],
+        [8.9272448, 44.4140169],
+        [8.9272313, 44.4140241]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 41725189,
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9278762, 44.4139044],
+        [8.9279723, 44.4139961],
+        [8.9276699, 44.4141627],
+        [8.9274614, 44.4141172],
+        [8.92752, 44.4139416],
+        [8.9277158, 44.4139875],
+        [8.9278762, 44.4139044]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 76035010,
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9296433, 44.409687],
+        [8.9297479, 44.4097041],
+        [8.9297469, 44.4097206],
+        [8.9298326, 44.4097371],
+        [8.9298314, 44.409751],
+        [8.9299226, 44.4097641],
+        [8.9299301, 44.4095769],
+        [8.9299305, 44.4094784],
+        [8.9299309, 44.4093961],
+        [8.929749, 44.4093931],
+        [8.9297185, 44.4095033],
+        [8.9297892, 44.4095043],
+        [8.9297875, 44.4095616],
+        [8.9297009, 44.4095606],
+        [8.9296433, 44.409687]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 76035022,
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9300556, 44.4105141],
+        [8.9304343, 44.410506],
+        [8.9304357, 44.4106205],
+        [8.9300556, 44.4106276],
+        [8.9300556, 44.4105141]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 86364399,
+      "@mp_outline": true,
+      "@relations": [{
+        role: "inner",
+        rel: 1285143,
+        reltags: {
+          amenity: "public_building",
+          building: "yes",
+          description: "sistema dei Rolli num. 1",
+          heritage: "1",
+          "heritage:operator": "whc",
+          historic: "heritage",
+          name: "Prefettura - Palazzo Doria Spinola",
+          type: "multipolygon",
+          wikipedia: "it:Palazzo Doria-Spinola"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9374322, 44.4100902],
+        [8.9372039, 44.4101005],
+        [8.9371891, 44.4099339],
+        [8.9374175, 44.4099236],
+        [8.9374322, 44.4100902]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 106971504,
+      "@mp_outline": true,
+      "@relations": [{
+        role: "inner",
+        rel: 1524221,
+        reltags: {
+          building: "yes",
+          description: "sistema dei Rolli num. 19",
+          heritage: "1",
+          "heritage:operator": "whc",
+          historic: "heritage",
+          layer: "1",
+          name: "Palazzo Rosso",
+          tourism: "museum",
+          type: "multipolygon",
+          wikipedia: "it:Palazzo Rosso (Genova)"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9319311, 44.4110514],
+        [8.9320246, 44.4110269],
+        [8.9320586, 44.4110931],
+        [8.9319651, 44.4111177],
+        [8.9319311, 44.4110514]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 106971506,
+      "@mp_outline": true,
+      "@relations": [{
+        role: "inner",
+        rel: 1524215,
+        reltags: {
+          building: "yes",
+          description: "sistema dei Rolli num. 10",
+          heritage: "1",
+          "heritage:operator": "whc",
+          historic: "heritage",
+          name: "Palazzo Lercari Parodi",
+          type: "multipolygon",
+          wikipedia: "it:Palazzo Lercari-Parodi"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9341089, 44.4110612],
+        [8.9340504, 44.4109338],
+        [8.9342018, 44.4108984],
+        [8.9342603, 44.4110258],
+        [8.9341089, 44.4110612]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 106971508,
+      "@mp_outline": true,
+      "@relations": [{
+        role: "inner",
+        rel: 1524216,
+        reltags: {
+          amenity: "townhall",
+          building: "yes",
+          description: "sistema dei Rolli num. 16",
+          heritage: "1",
+          "heritage:operator": "whc",
+          historic: "heritage",
+          name: "Palazzo Doria-Tursi",
+          type: "multipolygon",
+          wikipedia: "it:Palazzo Doria-Tursi"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9328112, 44.4116066],
+        [8.9326726, 44.4116386],
+        [8.9325897, 44.411455],
+        [8.9327283, 44.4114231],
+        [8.9328112, 44.4116066]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 106971509,
+      "@mp_outline": true,
+      "@relations": [{
+        role: "inner",
+        rel: 1524220,
+        reltags: {
+          building: "yes",
+          description: "sistema dei Rolli num. 12",
+          heritage: "1",
+          "heritage:operator": "whc",
+          historic: "heritage",
+          name: "Palazzo Angelo Giovanni Spinola",
+          type: "multipolygon",
+          wikipedia: "it:Palazzo Angelo Giovanni Spinola"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9338506, 44.4114149],
+        [8.9337527, 44.4111936],
+        [8.9338809, 44.4111646],
+        [8.9339789, 44.4113859],
+        [8.9338506, 44.4114149]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 106971512,
+      "@mp_outline": true,
+      "@relations": [{
+        role: "inner",
+        rel: 1524219,
+        reltags: {
+          alt_name: "Palazzo Doria",
+          building: "yes",
+          description: "sistema dei Rolli num. 13",
+          heritage: "1",
+          "heritage:operator": "whc",
+          historic: "heritage",
+          name: "Palazzo Gio Battista Spinola",
+          type: "multipolygon",
+          wikipedia: "it:Palazzo Gio Battista Spinola"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9335575, 44.4107598],
+        [8.9336742, 44.4107317],
+        [8.9336998, 44.410786],
+        [8.9335832, 44.4108141],
+        [8.9335575, 44.4107598]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 106971513,
+      "@mp_outline": true,
+      "@relations": [{
+        role: "inner",
+        rel: 1524215,
+        reltags: {
+          building: "yes",
+          description: "sistema dei Rolli num. 10",
+          heritage: "1",
+          "heritage:operator": "whc",
+          historic: "heritage",
+          name: "Palazzo Lercari Parodi",
+          type: "multipolygon",
+          wikipedia: "it:Palazzo Lercari-Parodi"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9343311, 44.4112084],
+        [8.9342065, 44.4112376],
+        [8.9341948, 44.4112121],
+        [8.9343194, 44.4111829],
+        [8.9343311, 44.4112084]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 106971515,
+      "@mp_outline": true,
+      "@relations": [{
+        role: "inner",
+        rel: 1524217,
+        reltags: {
+          building: "yes",
+          description: "sistema dei Rolli num. 8",
+          heritage: "1",
+          "heritage:operator": "whc",
+          historic: "heritage",
+          name: "Palazzo Pallavicini-Cambiaso",
+          type: "multipolygon",
+          wikipedia: "it:Palazzo Pallavicini-Cambiaso"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9345389, 44.4110322],
+        [8.9345093, 44.4109662],
+        [8.934606, 44.4109441],
+        [8.9346356, 44.4110101],
+        [8.9345389, 44.4110322]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 106971518,
+      "@mp_outline": true,
+      "@relations": [{
+        role: "inner",
+        rel: 1524218,
+        reltags: {
+          building: "yes",
+          description: "sistema dei Rolli num. 36",
+          heritage: "1",
+          "heritage:operator": "whc",
+          historic: "heritage",
+          name: "Palazzo Spinola di Pellicceria",
+          tourism: "museum",
+          type: "multipolygon",
+          wikipedia: "it:Palazzo Spinola di Pellicceria"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9303993, 44.410737],
+        [8.9304059, 44.4108245],
+        [8.9303358, 44.4108272],
+        [8.9303291, 44.4107398],
+        [8.9303993, 44.410737]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 106971520,
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9312307, 44.4115648],
+        [8.931366, 44.4115124],
+        [8.9315013, 44.41146],
+        [8.9313111, 44.4112093],
+        [8.9310404, 44.4113142],
+        [8.9312307, 44.4115648]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 107714370,
+      "@mp_outline": true,
+      "@relations": [{
+        role: "inner",
+        rel: 1532375,
+        reltags: {
+          alt_name: "Palazzo Balbi-Senarega",
+          building: "yes",
+          description: "sistema dei Rolli num. 28",
+          heritage: "1",
+          "heritage:operator": "whc",
+          historic: "heritage",
+          name: "Palazzo Giacomo e Pantaleo Balbi",
+          type: "multipolygon",
+          wikipedia: "it:Palazzo Balbi-Senarega"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9271945, 44.4140956],
+        [8.9272587, 44.4141568],
+        [8.9271425, 44.414219],
+        [8.9270783, 44.4141578],
+        [8.9271945, 44.4140956]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 107714380,
+      "@mp_outline": true,
+      "@relations": [{
+        role: "inner",
+        rel: 1532374,
+        reltags: {
+          building: "yes",
+          description: "sistema dei Rolli num. 30",
+          heritage: "1",
+          "heritage:operator": "whc",
+          historic: "heritage",
+          name: "Palazzo Reale",
+          tourism: "museum",
+          type: "multipolygon",
+          wikipedia: "it:Palazzo Reale (Genova)"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9257803, 44.4147306],
+        [8.9255827, 44.4145398],
+        [8.9257882, 44.4144311],
+        [8.9259859, 44.4146219],
+        [8.9259442, 44.4146439],
+        [8.9260381, 44.4147346],
+        [8.9258951, 44.4148102],
+        [8.9258012, 44.4147195],
+        [8.9257803, 44.4147306]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 107714384,
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }, {
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9269368, 44.4145269],
+        [8.926675, 44.4142742],
+        [8.9265804, 44.4143242],
+        [8.9266958, 44.4144356],
+        [8.9266199, 44.4144757],
+        [8.9265045, 44.4143644],
+        [8.9263883, 44.4144257],
+        [8.9266501, 44.4146784],
+        [8.9267931, 44.4146029],
+        [8.9269368, 44.4145269]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 107716422,
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.929929, 44.4132239],
+        [8.9299329, 44.4131166],
+        [8.9299364, 44.4129944],
+        [8.9294315, 44.413098],
+        [8.929476, 44.4133286],
+        [8.929929, 44.4132239]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 107716424,
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9279, 44.4136702],
+        [8.9285109, 44.4135161],
+        [8.9284525, 44.413398],
+        [8.928344, 44.4134254],
+        [8.9283221, 44.4133811],
+        [8.9281563, 44.4134229],
+        [8.928179, 44.4134688],
+        [8.9280113, 44.4135111],
+        [8.9280032, 44.4134947],
+        [8.9278343, 44.4135373],
+        [8.9279, 44.4136702]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 107717722,
+      "@mp_outline": true,
+      "@relations": [{
+        role: "inner",
+        rel: 1532405,
+        reltags: {
+          alt_name: "Palazzo della Meridiana",
+          building: "yes",
+          description: "sistema dei Rolli num. 20",
+          heritage: "1",
+          "heritage:operator": "whc",
+          historic: "heritage",
+          name: "Palazzo Gerolamo Grimaldi",
+          type: "multipolygon",
+          wikipedia: "it:Palazzo Gerolamo Grimaldi"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9313516, 44.4118507],
+        [8.9315098, 44.4118204],
+        [8.9314827, 44.4117482],
+        [8.9313246, 44.4117785],
+        [8.9313516, 44.4118507]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 107717724,
+      "@mp_outline": true,
+      "@relations": [{
+        role: "outer",
+        rel: 1532405,
+        reltags: {
+          alt_name: "Palazzo della Meridiana",
+          building: "yes",
+          description: "sistema dei Rolli num. 20",
+          heritage: "1",
+          "heritage:operator": "whc",
+          historic: "heritage",
+          name: "Palazzo Gerolamo Grimaldi",
+          type: "multipolygon",
+          wikipedia: "it:Palazzo Gerolamo Grimaldi"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9312481, 44.4119847],
+        [8.9316913, 44.4118999],
+        [8.9316351, 44.4117499],
+        [8.9315784, 44.4115987],
+        [8.9311351, 44.4116836],
+        [8.9312481, 44.4119847]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 107718550,
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9292058, 44.4096043],
+        [8.9294401, 44.4096214],
+        [8.9294457, 44.4095997],
+        [8.9296428, 44.409628],
+        [8.9296889, 44.4095153],
+        [8.9297154, 44.4093961],
+        [8.9294646, 44.409402],
+        [8.929215, 44.4094078],
+        [8.9292123, 44.409465],
+        [8.9292058, 44.4096043]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 141533045,
+      "@mp_outline": true,
+      "@relations": [{
+        role: "outer",
+        rel: 1917383,
+        reltags: {
+          building: "yes",
+          description: "sistema dei Rolli num. 26",
+          heritage: "1",
+          "heritage:operator": "whc",
+          historic: "heritage",
+          name: "Palazzo G. Agostino Balbi",
+          type: "multipolygon",
+          wikipedia: "it:Palazzo Durazzo-Pallavicini"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9273993, 44.4143823],
+        [8.9272649, 44.4144535],
+        [8.9271687, 44.4145046],
+        [8.9270347, 44.4145756],
+        [8.9270503, 44.4145906],
+        [8.926944, 44.4146474],
+        [8.9269867, 44.4146882],
+        [8.9270928, 44.4146315],
+        [8.9271978, 44.4147326],
+        [8.9272273, 44.4147609],
+        [8.9271186, 44.4148186],
+        [8.9271673, 44.4148655],
+        [8.9272273, 44.4148336],
+        [8.9272925, 44.4148963],
+        [8.9274282, 44.4148244],
+        [8.9273832, 44.4147811],
+        [8.9273928, 44.414776],
+        [8.9274005, 44.4147833],
+        [8.927545, 44.4147067],
+        [8.9275547, 44.4147161],
+        [8.9275681, 44.414709],
+        [8.9275864, 44.4147266],
+        [8.9277272, 44.4146519],
+        [8.9277089, 44.4146343],
+        [8.9278155, 44.4145778],
+        [8.9278706, 44.4144372],
+        [8.9278641, 44.4144309],
+        [8.9277344, 44.4144997],
+        [8.927597, 44.4145725],
+        [8.9274564, 44.4144372],
+        [8.9275587, 44.4143826],
+        [8.927516, 44.4143418],
+        [8.9274139, 44.4143963],
+        [8.9273993, 44.4143823]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 141533046,
+      "@mp_outline": true,
+      "@relations": [{
+        role: "inner",
+        rel: 1917383,
+        reltags: {
+          building: "yes",
+          description: "sistema dei Rolli num. 26",
+          heritage: "1",
+          "heritage:operator": "whc",
+          historic: "heritage",
+          name: "Palazzo G. Agostino Balbi",
+          type: "multipolygon",
+          wikipedia: "it:Palazzo Durazzo-Pallavicini"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9274281, 44.4146105],
+        [8.9274937, 44.4146737],
+        [8.9273974, 44.4147247],
+        [8.9273318, 44.4146615],
+        [8.9274281, 44.4146105]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 153185249,
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9352505, 44.4099396],
+        [8.9354832, 44.4098091],
+        [8.9355809, 44.4098872],
+        [8.9355518, 44.4099022],
+        [8.9356205, 44.4099653],
+        [8.935446, 44.4100775],
+        [8.935317, 44.4099865],
+        [8.9352505, 44.4099396]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 164326908,
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9289704, 44.4128802],
+        [8.9291415, 44.4128379],
+        [8.9293537, 44.4128014],
+        [8.9293466, 44.4127067],
+        [8.9293389, 44.4126052],
+        [8.9291859, 44.4126416],
+        [8.9291897, 44.4126503],
+        [8.9288727, 44.4127432],
+        [8.9289704, 44.4128802]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 164326910,
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9288896, 44.4120812],
+        [8.9290536, 44.412018],
+        [8.9289962, 44.4119252],
+        [8.9289385, 44.4118319],
+        [8.9287221, 44.4118477],
+        [8.9287116, 44.4118552],
+        [8.9288896, 44.4120812]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 164425515,
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9357299, 44.4101969],
+        [8.9357933, 44.4101723],
+        [8.9358696, 44.4101428],
+        [8.9356994, 44.4099648],
+        [8.9356062, 44.4100079],
+        [8.9357299, 44.4101969]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 164425517,
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9359931, 44.4103913],
+        [8.9361098, 44.4103665],
+        [8.9360557, 44.4101209],
+        [8.9358329, 44.4101979],
+        [8.9356594, 44.4102673],
+        [8.9359055, 44.4105201],
+        [8.9359931, 44.4104846],
+        [8.9358536, 44.4103287],
+        [8.9359284, 44.4103019],
+        [8.9359931, 44.4103913]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 164570196,
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9351978, 44.4103559],
+        [8.9354658, 44.4104461],
+        [8.9352897, 44.4106881],
+        [8.935156, 44.4106397],
+        [8.9350878, 44.4107324],
+        [8.9349623, 44.410693],
+        [8.9350197, 44.4106088],
+        [8.935129, 44.4104557],
+        [8.9351978, 44.4103559]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 164570452,
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9348347, 44.4108816],
+        [8.9348982, 44.4107878],
+        [8.9349623, 44.410693],
+        [8.9350878, 44.4107324],
+        [8.935182, 44.4107641],
+        [8.9350316, 44.4110037],
+        [8.934852, 44.4109512],
+        [8.9348866, 44.4109017],
+        [8.9348347, 44.4108816]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 164570793,
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9299206, 44.4137125],
+        [8.9299809, 44.4134828],
+        [8.9301704, 44.4134895],
+        [8.9303613, 44.4134962],
+        [8.9303398, 44.4137381],
+        [8.9299206, 44.4137125]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 164571099,
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9298245, 44.4137629],
+        [8.9299153, 44.4135227],
+        [8.9296742, 44.4134331],
+        [8.9296238, 44.4134146],
+        [8.9294489, 44.4134623],
+        [8.9293873, 44.4137],
+        [8.9298245, 44.4137629]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 164571713,
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9292138, 44.4120351],
+        [8.9291325, 44.4120645],
+        [8.9290048, 44.4121105],
+        [8.9290876, 44.4122126],
+        [8.9292336, 44.4121492],
+        [8.9292138, 44.4120351]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 164571806,
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.929319, 44.412183],
+        [8.9294663, 44.4121661],
+        [8.929511, 44.4123192],
+        [8.9293453, 44.4123342],
+        [8.929332, 44.4122575],
+        [8.929319, 44.412183]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 164571807,
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.929811, 44.411248],
+        [8.9298144, 44.4111646],
+        [8.9298304, 44.4111011],
+        [8.9297173, 44.4111047],
+        [8.9297102, 44.4112403],
+        [8.929811, 44.411248]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 164572586,
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9299132, 44.4103271],
+        [8.9299253, 44.4102289],
+        [8.9302, 44.4102679],
+        [8.9301838, 44.4103458],
+        [8.9300425, 44.410336],
+        [8.9299132, 44.4103271]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 164572591,
+      "@relations": [{
+        role: "",
+        rel: 2194145,
+        reltags: {
+          heritage: "1",
+          "heritage:operator": "whc",
+          name: "Palazzi dei Rolli di Genova",
+          "ref:whc": "1121",
+          type: "site",
+          "whc:criteria": "2;4",
+          "whc:iscription_date": "2006"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9299322, 44.4102075],
+        [8.9299404, 44.4101322],
+        [8.9299484, 44.4100585],
+        [8.9300577, 44.4100665],
+        [8.9300456, 44.4102169],
+        [8.9299322, 44.4102075]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "way",
+      "@id": 185771819,
+      "@mp_outline": true,
+      "@relations": [{
+        role: "outer",
+        rel: 1524216,
+        reltags: {
+          amenity: "townhall",
+          building: "yes",
+          description: "sistema dei Rolli num. 16",
+          heritage: "1",
+          "heritage:operator": "whc",
+          historic: "heritage",
+          name: "Palazzo Doria-Tursi",
+          type: "multipolygon",
+          wikipedia: "it:Palazzo Doria-Tursi"
+        }
+      }]
+    },
+    geometry: {
+      type: "LineString",
+      coordinates: [
+        [8.9324188, 44.4112817],
+        [8.9327053, 44.4112177],
+        [8.9327946, 44.4111961],
+        [8.933086, 44.4117773],
+        [8.9325846, 44.4118925],
+        [8.9323293, 44.4113371],
+        [8.9323133, 44.4113052],
+        [8.9324188, 44.4112817]
+      ]
+    }
+  }, {
+    type: "Feature",
+    properties: {
+      "@type": "node",
+      "@id": 66586322,
+      capital: "4",
+      gfoss_id: "1282",
+      heritage: "1",
+      "heritage:operator": "whc",
+      is_in: "Genova, Liguria, Italy",
+      "is_in:continent": "Europe",
+      "is_in:country": "Italy",
+      "is_in:country_code": "IT",
+      name: "Genova",
+      "name:ar": "جنوة",
+      "name:ast": "Xénova",
+      "name:de": "Genua",
+      "name:en": "Genoa",
+      "name:es": "Génova",
+      "name:fa": "جنوا",
+      "name:fr": "Gênes",
+      "name:it": "Genova",
+      "name:lij": "Zena",
+      "name:pl": "Genua",
+      "name:pt": "Génova",
+      "name:ru": "Генуя",
+      "name:sl": "Genova",
+      "name:zh": "热那亚",
+      place: "city",
+      population: "610307",
+      rank: "20",
+      source: "geodati.gfoss.it",
+      wikipedia: "it:Genova",
+      "@relations": []
+    },
+    geometry: {
+      type: "Point",
+      coordinates: [8.9338624, 44.40726]
+    }
+  }]
+}
