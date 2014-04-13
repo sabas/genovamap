@@ -1,7 +1,8 @@
 /*crea la mappa e passa l'oggetto)*/
-function initmap(lat, lon, zoom, obj)
+function initmap(lat, lon, zoom, obj,layerurl='mapnik')
 {
-var layerurl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+if(layerurl='mapnik') layerurl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+if(layerurl='mapquest') layerurl = 'http://otile{s}.mqcdn.com/tiles/1.0.0/{type}/{z}/{x}/{y}.png';
 var	attr = 'Dati &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> sotto licenza ODBL';
 
 var tile = new L.TileLayer(layerurl, {maxZoom: 18, attribution: attr});
