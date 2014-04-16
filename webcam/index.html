@@ -5,10 +5,13 @@
 <title>Genova Map</title>
 <link rel="shortcut icon" href="http://map.genova.it/favicon.ico" />
  
-<link rel="stylesheet" href="http://map.genova.it/script/leaflet.css" />
-<script type="text/javascript" src="http://map.genova.it/script/leaflet.js"></script>
-<script type="text/javascript" src="http://map.genova.it/script/map.js"></script>
-<link rel="stylesheet" href="http://map.genova.it/script/map.css" />
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+<script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+<script type="text/javascript" src="../script/map.js"></script>
+<link rel="stylesheet" href="../script/map.css" />
+
+<script type="text/javascript" src="../script/L.Control.Sidebar.js"></script>
+<link rel="stylesheet" href="../script/L.Control.Sidebar.css" />
 
 <!-- Google Analytics -->
 <script>
@@ -27,13 +30,19 @@
 <div id="map"></div>
 <a href="https://github.com/sabas/genovamap"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
 
+<div id="sidebar">
+    <h3>Webcam a Genova</h3>
+    <p>Su questa mappa sono mostrate le webcam presenti sul territorio della città di Genova.</p>
+    <p>Tutte le webcam sono visibili pubblicamente sul <a href="http://www.webcam.comune.genova.it/">sito del Comune</a> o su <a href="http://www.mobilitypoint.it/InfomobilityWeb/portal/alias__Rainbow/lang__it-IT/tabID__3517/home/webcam_traffico/riepilogo_webcams.aspx">MobilityPoint</a>.</p>
+</div>
+
 <script type="text/javascript">
 //https://code.google.com/p/microajax/
 function microAjax(B,A){this.bindFunction=function(E,D){return function(){return E.apply(D,[D])}};this.stateChange=function(D){if(this.request.readyState==4){this.callbackFunction(this.request.responseText)}};this.getRequest=function(){if(window.ActiveXObject){return new ActiveXObject("Microsoft.XMLHTTP")}else{if(window.XMLHttpRequest){return new XMLHttpRequest()}}return false};this.postBody=(arguments[2]||"");this.callbackFunction=A;this.url=B;this.request=this.getRequest();if(this.request){var C=this.request;C.onreadystatechange=this.bindFunction(this.stateChange,this);if(this.postBody!==""){C.open("POST",B,true);C.setRequestHeader("X-Requested-With","XMLHttpRequest"); C.setRequestHeader("Content-type","application/x-www-form-urlencoded");C.setRequestHeader("Connection","close")}else{C.open("GET",B,true)}C.send(this.postBody)}};
 </script>
 
 <script type="text/javascript">
-var map = initmap(44.412,8.931,12);
+var map = initmap(44.40536,8.88230,12);
 
 	var ico=L.icon({iconUrl:'camera24.png', iconSize:[24,24],iconAnchor:[12,0]});
 
@@ -52,6 +61,18 @@ var feat=JSON.parse(res);
 			}
 		});
  });
+ 
+ var sidebar = L.control.sidebar('sidebar', {
+     closeButton: false,
+    position: 'left',
+    autoPan: 'false'
+});
+
+map.addControl(sidebar);
+setTimeout(function () {
+    sidebar.show();
+}, 100);
+
 </script>
 
 </body>	
