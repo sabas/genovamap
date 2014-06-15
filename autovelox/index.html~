@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Autovelox</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui"/>
+
+    <style>
+      table.dt{
+          width:100%;
+          border:1px solid #e8eaef;
+      }
+      table.dt th{font-weight:bold;}
+      table.dt tr:nth-child(odd){ background-color:#e8eaef; }
+      table.dt tr:nth-child(even){ background-color:#fff; }
+      table.dt tr td {padding:3px;}
+    </style>
+  </head>
+
+  <body>
+    <div>
+            <table id="jsanswer"></table>
+    </div>
+    <script src="../script/jquery-1.9.1.min.js"></script>
+    <script>
+	var key="98zRRCjrt61hK7SIKkiN";
+	var query="select%20*%20from%20%27data%27%20where%20data%3E%3Dstrftime(%27%25Y%25m%25d%27%2C%20%27now%27)";
+	var url = "https://api.morph.io/sabas/pmgenova_autovelox/data.json";
+        $.ajax({url: url + "?key=" + key + "&query=" + query, dataType: 'jsonp', success:processData, error: processError });
+      });
+
+	function processData(tdata){
+	  var tab=$('#jsanswer');
+	  tab.empty();
+	  if(!tab.hasClass('dt'))
+		tab.addClass('dt');
+	  tab.append('<tr><th>Data</th><th>Inizio</th><th>Fine</th><th>Luogo</th></tr>');
+	  $(tdata).each(function(i,a){
+	  tab.append('<tr><td>'+a['data']+'</td><td>'+a['inizio']+'</td><td>'+a['fine']+'</td><td>'+a['luogo']+'</td></tr>');
+	  });
+
+	}
+	function processError(terror){
+	  console.log(terror);
+	}
+    </script>
+  </body>
+</html>
