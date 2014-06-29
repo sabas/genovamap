@@ -1,0 +1,548 @@
+
+{
+    "type":"FeatureCollection",
+    "generator":"JOSM",
+    "features":[
+        {
+            "type":"Feature",
+            "properties":{
+                "shop":"books",
+                "name":"Libreria Antiquaria Dallai",
+                "addr:street":"Piazza De Marini",
+                "historic":"yes",
+                "addr:housenumber":"11 rosso"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    8.9294885,
+                    44.4088347
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "shop":"pastry",
+                "name":"Pasticceria D. Villa di M. Profumo",
+                "addr:street":"Via del Portello",
+                "historic":"yes",
+                "addr:housenumber":"2r"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    8.9343065,
+                    44.4108681
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "shop":"alcohol",
+                "name":"GM Luico",
+                "addr:street":"Salita Santa Caterina",
+                "historic":"yes",
+                "addr:housenumber":"17 rosso"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    8.9362915,
+                    44.4099551
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "shop":"clothes",
+                "website":"http://www.pissimbono.it/",
+                "name":"Pissimbono Abbigliamento",
+                "addr:street":"Via XXV Aprile",
+                "historic":"yes",
+                "addr:housenumber":"64 rosso"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    8.9351112,
+                    44.4098957
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "website":"http://www.erboristeriadeifrati.it/",
+                "name":"Antica Farmacia Sant'Anna",
+                "amenity":"pharmacy",
+                "addr:street":"Piazza Sant'Anna",
+                "historic":"yes",
+                "addr:housenumber":"8"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    8.9375226,
+                    44.4154157
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "shop":"pastry",
+                "ref:vatin":"IT03876130109",
+                "payment:meal_voucher":"yes",
+                "name":"Klainguti",
+                "contact:phone":"+39 010 8602628",
+                "amenity":"cafe",
+                "addr:street":"Piazza Soziglia",
+                "historic":"yes",
+                "addr:housenumber":"98 rosso"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    8.9319329,
+                    44.4093899
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "shop":"deli",
+                "name":"Drogheria Viganego",
+                "addr:street":"Via Colombo",
+                "historic":"yes",
+                "addr:housenumber":"Via Colombo 22 rosso"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    8.9425334,
+                    44.4062829
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "shop":"jewelry",
+                "website":"http://www.arduino1870.it/",
+                "name":"A. Arduino",
+                "addr:street":"Via Giuseppe Garibaldi",
+                "historic":"yes",
+                "addr:housenumber":"17 rosso"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    8.9319676,
+                    44.4113759
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "shop":"butcher",
+                "name":"Tripperia Casana",
+                "addr:street":"Vico della Casana",
+                "historic":"yes",
+                "addr:housenumber":"3 rosso"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    8.932727,
+                    44.4092813
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "shop":"jewelry",
+                "website":"http://www.gismondijewellery1763.com/",
+                "name":"Argenteria Gismondi",
+                "addr:street":"Via Galata",
+                "historic":"yes",
+                "addr:housenumber":"72 rosso"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    8.9431629,
+                    44.4073293
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "shop":"deli",
+                "website":"http://www.zuccotticioccolato.it/",
+                "name":"Zuccotti",
+                "addr:street":"Via di Santa Zita",
+                "historic":"yes",
+                "addr:housenumber":"36 rosso"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    8.9488064,
+                    44.402827
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "name":"Bar Pasticceria e Confetteria Mangini",
+                "amenity":"bar",
+                "addr:street":"Piazza Corvetto",
+                "historic":"yes",
+                "addr:housenumber":"3 rosso"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    8.937727,
+                    44.4097506
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "shop":"deli",
+                "name":"Drogheria Torielli",
+                "addr:street":"Via di San Bernardo",
+                "historic":"yes",
+                "addr:housenumber":"32 rosso"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    8.9298608,
+                    44.4065056
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "shop":"butcher",
+                "name":"Polleria Aresu",
+                "addr:street":"Vico Inferiore del Ferro",
+                "historic":"yes",
+                "addr:housenumber":"1 rosso"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    8.9336963,
+                    44.4101727
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "shop":"shoes",
+                "name":"Calzature Stagno",
+                "addr:street":"Largo Alessandro Pertini",
+                "historic":"yes",
+                "addr:housenumber":"5 rosso"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    8.9348042,
+                    44.4077103
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "shop":"butcher",
+                "name":"Macelleria Nico",
+                "addr:street":"Via Macelli di Soziglia",
+                "historic":"yes",
+                "addr:housenumber":"8 rosso"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    8.9325027,
+                    44.4096116
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "shop":"plaques",
+                "name":"Busellato Targhe e Timbri",
+                "addr:street":"Via al Ponte Reale",
+                "historic":"yes",
+                "addr:housenumber":"3 rosso"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    8.9293476,
+                    44.4093576
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "website":"www.cavo.it",
+                "ref:vatin":"IT01676410994",
+                "name":"Bar Pasticceria Cavo",
+                "contact:phone":"+39 010 2091226",
+                "amenity":"cafe",
+                "addr:street":"Via di Fossatello",
+                "operator":"Cavo C.R. srl",
+                "historic":"yes",
+                "addr:housenumber":"35 rosso;37 rosso"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    8.9293647,
+                    44.4119309
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "shop":"stationery",
+                "name":"Legatoria Angeloni",
+                "addr:street":"Via dei Conservatori del Mare",
+                "historic":"yes",
+                "addr:housenumber":"47 rosso"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    8.9304388,
+                    44.4089647
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "shop":"clothes",
+                "website":"http://www.lucarda.com/",
+                "name":"Abbigliamento Lucarda",
+                "addr:street":"Via di Sottoripa",
+                "historic":"yes",
+                "addr:housenumber":"61 rosso"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    8.9293388,
+                    44.4098155
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "shop":"haberdashery",
+                "name":"Rivara & C",
+                "addr:street":"Piazza di San Lorenzo",
+                "historic":"yes",
+                "addr:housenumber":"36 rosso"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    8.9309931,
+                    44.4080247
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "shop":"clothes",
+                "website":"http://www.finollo.it/",
+                "name":"Finollo & C Cravatte e Camicie",
+                "addr:street":"Via Roma",
+                "historic":"yes",
+                "addr:housenumber":"38 rosso"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    8.9358747,
+                    44.4091272
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "website":"http://www.farmaciaalvigini.com",
+                "name":"Farmacia Dottor Alvigini",
+                "amenity":"pharmacy",
+                "addr:street":"Via Petrarca",
+                "historic":"yes",
+                "addr:housenumber":"14 rosso"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    8.9338536,
+                    44.4063776
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "shop":"deli",
+                "website":"www.romeoviganotti.it",
+                "name":"Fabbrica di Cioccolato Viganotti",
+                "addr:street":"Vico dei Castagna",
+                "historic":"yes",
+                "addr:housenumber":"14 rosso"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    8.933042,
+                    44.4061177
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "shop":"confectionery",
+                "name":"Confetteria Pietro Romanengo",
+                "addr:street":"Piazza Soziglia",
+                "historic":"yes",
+                "addr:housenumber":"74 rosso"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    8.9317065,
+                    44.4093264
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "shop":"clothes",
+                "name":"Pescetto",
+                "addr:street":"Via di Scurreria",
+                "historic":"yes",
+                "addr:housenumber":"8 rosso"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    8.9318136,
+                    44.4086069
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "internet_access:fee":"no",
+                "internet_access":"wlan",
+                "name":"Farmacia Operaia Sormani",
+                "internet_access:ssid":"F Sormani",
+                "amenity":"pharmacy",
+                "addr:street":"Piazza della Raibetta",
+                "internet_access:operator":"Vallicom",
+                "historic":"yes",
+                "addr:housenumber":"6 rosso"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    8.9288228,
+                    44.4084333
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "addr:postcode":"16123",
+                "website":"http://sapesta.it/",
+                "ref:vatin":"IT0315890102",
+                "name":"Antica Sa Pesta",
+                "contact:phone":"+39 0102468336",
+                "amenity":"restaurant",
+                "addr:street":"Via dei Giustiniani",
+                "operator":"Benvenuto A. e C.",
+                "historic":"yes",
+                "addr:housenumber":"16 rosso"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    8.9295936,
+                    44.407215
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "shop":"barber",
+                "description":"Barberia in stile Liberty, adottata dal F.A.I.",
+                "name":"Barberia Giacalone",
+                "tourism":"attraction",
+                "addr:street":"Vico Caprettari",
+                "photo":"http://www.flickr.com/photos/dcrrld/3296458917/",
+                "historic":"yes",
+                "opening_hours":"Tu-Sa 08:30-13:00,15:00-19:30",
+                "addr:housenumber":"14 rosso"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    8.9291588,
+                    44.4080159
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "shop":"confectionery",
+                "website":"http://romanengo.it/",
+                "name":"Pietro Romanengo fu Stefano",
+                "addr:street":"Via Roma",
+                "historic":"yes",
+                "addr:housenumber":"51 rosso"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    8.9364987,
+                    44.4092244
+                ]
+            }
+        }
+    ]
+}
