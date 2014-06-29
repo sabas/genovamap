@@ -53,7 +53,7 @@ var feat=JSON.parse(res);
                 else if (feature.properties['amenity']!==undefined)  name=feature.properties['amenity'];
                 else
                 console.log(feature.properties);
-                var ico=L.icon({iconUrl: '../icons/'+name+'.png', iconSize:[24,24],iconAnchor:[12,0]});
+                var ico=L.icon({iconUrl: '../icons/'+name+'.png', iconSize:[32,37],iconAnchor:[16,0]});
 				var marker=L.marker(latlng, {icon:ico});
                 marker.addTo(map);
 				return marker;
