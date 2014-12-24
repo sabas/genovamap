@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+<head>
+<meta charset="utf-8"/>
+<title>Genova Map</title>
+<link rel="shortcut icon" href="http://map.genova.it/favicon.ico" />
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<link rel="stylesheet" href="../script/map.css" />
+
+<!-- microAjax -->
+<script type="text/javascript">
+function microAjax(B,A){this.bindFunction=function(E,D){return function(){return E.apply(D,[D])}};this.stateChange=function(D){if(this.request.readyState==4){this.callbackFunction(this.request.responseText)}};this.getRequest=function(){if(window.ActiveXObject){return new ActiveXObject("Microsoft.XMLHTTP")}else{if(window.XMLHttpRequest){return new XMLHttpRequest()}}return false};this.postBody=(arguments[2]||"");this.callbackFunction=A;this.url=B;this.request=this.getRequest();if(this.request){var C=this.request;C.onreadystatechange=this.bindFunction(this.stateChange,this);if(this.postBody!==""){C.open("POST",B,true);C.setRequestHeader("X-Requested-With","XMLHttpRequest"); C.setRequestHeader("Content-type","application/x-www-form-urlencoded");C.setRequestHeader("Connection","close")}else{C.open("GET",B,true)}C.send(this.postBody)}};
+</script>
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40563785-1', 'map.genova.it');
+  ga('send', 'pageview');
+</script>
+
+<style>
+
+</style>
+</head>
+
+<body>
+<div id="map"></div>
+<div id="descr">
+    <h1>Botteghe Storiche</h1>
+    <p>L'<i>Albo delle Botteghe Storiche</i>, istituito dal Comune di Genova, raccoglie le attività commerciali esistenti da almeno 70 anni e che rispondono ai criteri della Soprintendenza per i Beni Culturali.</p>
+    <p>Vedi anche: <a href="http://www.visitgenoa.it/it/botteghe-storiche" target="_blank" rel="nofollow">VisitGenoa</a></div>
+
+<script type="text/javascript">
+var map = L.map('map');
+var geojson;
+var geoFile='botteghestoriche.geojson';
+var ico=L.icon({iconUrl: '../icons/'+name+'.png', iconSize:[32,37],iconAnchor:[16,37],popupAnchor:[0,-37]});
+
+L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+microAjax(geoFile,function (res) {
+        var feat=JSON.parse(res);
+        geojson = L.geoJson(feat,{
+            onEachFeature:function onEachFeature(feature, layer) {
+                if (feature.properties && feature.properties.name) {
+                    layer.bindPopup("<p style='font-weight:bold'>"+feature.properties.name+"</p>");
+                }
+            },
+            pointToLayer: function (feature, latlng) {
+                var name='';
+                if (feature.properties['shop']!==undefined)
+                    name=feature.properties['shop'];
+                else if (feature.properties['amenity']!==undefined)
+                    name=feature.properties['amenity'];
+                else
+                console.log(feature.properties);
+                var marker=L.marker(latlng, {icon:ico});
+                marker.addTo(map);
+                return marker;
+            }
+        });
+    map.fitBounds(geojson.getBounds(),{padding:[30,30]});
+});
+</script>
+
+</body>
+</html>
