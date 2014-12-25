@@ -56,10 +56,9 @@
                 },
                 pointToLayer: function (feature, latlng) {
                     var marker=L.marker(latlng, {icon:ico});
-                    marker.addTo(map);
                     return marker;
                 }
-            });
+            }).addTo(map);
             map.fitBounds(geojson.getBounds(),{padding:[30,30]});
         });
     </script>

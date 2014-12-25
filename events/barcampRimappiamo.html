@@ -4,103 +4,26 @@
 <meta charset="UTF-8"/>
 <title>BarCamp</title>
 
-<script type="text/javascript" src="../script/leaflet.js"></script>
-<script type="text/javascript" src="../script/map.js"></script>
-<script type="text/javascript" src="../script/underscore-min.js"></script>
-<script type="text/javascript" src="../script/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="../script/jquery.geo.min.js"></script>
-<script type="text/javascript" src="../script/jquery.debounce-1.0.5.js"></script>
-<link rel="stylesheet" href="../script/leaflet.css" />
-<link rel="stylesheet" href="../script/sherlock.css" />
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<link rel="stylesheet" href="../script/map.css" />
 </head>
 
-<body class='section-0'>
+<body>
 
-<div id='pane'>
     <div id='map'></div>
-</div>
-
-<article>
-  <section id='cover' class='cover active'>
-    <h1>Rimappiamo la città</h1>
-    <p>Palazzo Ducale, Genova 11 Maggio 2013</p>
-    <small>Map icons by <a href="http://mapicons.nicolasmollet.com/">Nicholas Mollet</a>, Visualization derived from <a href="http://mapbox.com/tutorial-sherlock/">MapBox's Sherlock</a>, Map data &copy; OpenStreetMap Contributors</small>
-    <small class='scroll'>Scroll con il mouse ▼</small>
-  </section>
-  <section id='id1' class="">
-    <h2></h2>
-    <p></p>
-  </section>
-  <section id='id2' class="">
-    <h2></h2>
-    <p></p>
-  </section>
-  <section id='id3' class="">
-    <h2></h2>
-    <p></p>
-  </section>
-  <section id='id4' class="">
-    <h2></h2>
-    <p></p>
-  </section>
-  <section id='id5' class="">
-    <h2></h2>
-    <p></p>
-  </section>
-  <section id='id6' class="">
-    <h2></h2>
-    <p></p>
-  </section>
-  <section id='id7' class="">
-    <h2></h2>
-    <p></p>
-  </section>
-  <section id='id8' class="">
-    <h2></h2>
-    <p></p>
-  </section>
-  <section id='id9' class="">
-    <h2></h2>
-    <p></p>
-  </section>
-  <section id='id10' class="">
-    <h2></h2>
-    <p></p>
-  </section>
-  <section id='id11' class="">
-    <h2></h2>
-    <p></p>
-  </section>
-  <section id='id12' class="">
-    <h2></h2>
-    <p></p>
-  </section>
-  <section id='id13' class="">
-    <h2></h2>
-    <p></p>
-  </section>
-  <section id='id14' class="">
-    <h2></h2>
-    <p></p>
-  </section>
-  <section id='id15' class="">
-    <h2></h2>
-    <p></p>
-  </section>
-  <section id='id16' class="">
-    <h2></h2>
-    <p></p>
-  </section>
-  <section id='id17' class="">
-    <h2></h2>
-    <p></p>
-  </section>
-</article>
-
+    <div id="descr">
+        <h1>Rimappiamo la città</h1>
+        <p>Palazzo Ducale, Genova 11 Maggio 2013</p></div>
 </body>
 
 <script>
-var map = initmap(44.412,8.931,16, { zoomControl:false });
+        var map = L.map('map', { zoomControl:false }).setView([44.412,8.931],12);
+
+        L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
 
 
 var cat=
@@ -138,56 +61,16 @@ var iniziative=
     "id17": {"lat":"44.412478", "lon":"8.882497", "zoom":16, "title":"Le mappe dei quartieri viventi", "text":"Per creare una mappa Livehoods di Genova. Livehoods analizza i dati generati da smartphone (con Foursquare e resi pubblici su Twitter) e crea mappe tematiche dinamiche che spesso corrispondono molto da vicino alle percezioni che le persone hanno del loro ambiente urbano.", 'cat': 'quar'},
 }
 
-var sections = document.getElementsByTagName('section');
+    
+  $.each(iniziative, function (i,j){
+    
+ var icon= L.icon( {iconUrl: cat[j["cat"]]["icon"], iconSize: [32, 37], iconAnchor: [16, 36], popupAnchor: [0, -36]});
+ var marker = L.marker([j["lat"], j["lon"]], {icon: icon});
+marker.bindPopup("<h1>"+j["title"]+"</h1><p>"+j["text"]+"</p>");
+marker.addTo(map);
 
-var setActive = function(index, ease) {
+});
 
-  $.each(sections,function(i,s) { s.className = s.className.replace(' active', '') });
-  
-    sections[index].className += ' active';
-      document.body.className = 'section-' + index;
-      
-      var obj=iniziative[sections[index].id];
-               if (typeof obj==="undefined") return;
-     if (typeof layer!=="undefined")     removeMarker(map,layer);
-              
-              var icon= makeIcon(cat[obj["cat"]]["icon"]);
-     layer= putMarker(map,icon,obj["lat"],obj["lon"],obj["text"]);
-     
-          map.panTo([obj['lat'],obj['lon']]);
-            map.setZoom(obj['zoom']);
-     $(sections[index]).find("h2").html(obj["title"]);     
-    $(sections[index]).find("p").html(obj["text"]);
-
-      return true;
-};
-
-window.onscroll = $.debounce(function() {
-  // IE 8
-  if (window.pageYOffset === undefined) {
-    var y = document.documentElement.scrollTop;
-    var h = document.documentElement.clientHeight;
-  } else {
-    var y = window.pageYOffset;
-    var h = window.innerHeight;
-  }
-
-  if (y === 0) return setActive(0, true);
-
-  var memo = 0;
-  var buffer = (h * 0.3333);
-
-  var active = _(sections).any(function(el, index) {
-    memo += el.offsetHeight;
-    return y < (memo-buffer) ? setActive(index, true) : false;
-  });
-
-
-  if (!active) setActive(sections.length - 1, true);
-},10);
-
-
-setActive(0, false);
 </script>
 
 </html>
