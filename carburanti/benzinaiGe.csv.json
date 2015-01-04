@@ -1,0 +1,1217 @@
+[
+  {
+    "lon":8.952789,
+    "lat":44.406950,
+    "id":7182,
+    "name":"stazione ENI",
+    "addr":"VIA ARCHIMEDE 177R, 16142 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  },
+  {
+    "lon":8.963687,
+    "lat":44.442054,
+    "id":26257,
+    "name":"ENI",
+    "addr":"VIA PIACENZA 185 A/R 16138 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  },
+  {
+    "lon":8.952965,
+    "lat":44.404687,
+    "id":16991,
+    "name":"Stazione di servizio di Liguori Andrea",
+    "addr":"VIA TOLEMAIDE 9 R., 16129 - GENOVA GE",
+    "bnd":"Api-Ip",
+    "sameAs":""
+  },
+  {
+    "lon":9.018094,
+    "lat":44.386898,
+    "id":16444,
+    "name":"rapetti roberto",
+    "addr":"CORSO EUROPA 1624, 16132 - GENOVA GE",
+    "bnd":"Api-Ip",
+    "sameAs":"24590"
+  },
+  {
+    "lon":8.901886,
+    "lat":44.462942,
+    "id":17012,
+    "name":"Belcastro Daniela snc",
+    "addr":"PIAZZA OSPEDALE PASTORINO ., 16162 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  },
+  {
+    "lon":8.950589,
+    "lat":44.415428,
+    "id":26131,
+    "name":"DISTRIBUTORE IP",
+    "addr":"VIA CANEVARI - DISTR. IP  16137 - GENOVA GE",
+    "bnd":"Api-Ip",
+    "sameAs":""
+  },
+  {
+    "lon":8.881112,
+    "lat":44.421056,
+    "id":24143,
+    "name":"EUROPAM",
+    "addr":"VIA RENATA BIANCHI 44B 16152 - GENOVA GE",
+    "bnd":"PompeBianche",
+    "sameAs":""
+  },
+  {
+    "lon":8.990874,
+    "lat":44.398911,
+    "id":17533,
+    "name":"tamoil",
+    "addr":"Corso europa 770  - GENOVA GE",
+    "bnd":"Tamoil",
+    "sameAs":""
+  },
+  {
+    "lon":8.868304,
+    "lat":44.415726,
+    "id":26129,
+    "name":"51490 GENOVA CONTI",
+    "addr":"PIAZZA MARIO CONTI 25/R 16152 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  },
+  {
+    "lon":8.955291,
+    "lat":44.404691,
+    "id":28766,
+    "name":"STAROIL",
+    "addr":"VIA TOLEMAIDE 13R 16129 - GENOVA GE",
+    "bnd":"PompeBianche",
+    "sameAs":"21708"
+  },
+  {
+    "lon":8.978379,
+    "lat":44.408367,
+    "id":19865,
+    "name":"curreli giovanni andrea",
+    "addr":"VIA BORGORATTI 23L R, 16132 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  },
+  {
+    "lon":8.896692,
+    "lat":44.456313,
+    "id":10583,
+    "name":"distributore ",
+    "addr":"VIA UGO POLONIO 16 R. DISTRIBUTORE null, 16162   - GENOVA GE",
+    "bnd":"Esso",
+    "sameAs":""
+  },
+  {
+    "lon":8.775052,
+    "lat":44.427338,
+    "id":23022,
+    "name":"totalerg",
+    "addr":"statale 1 Via Aurelia Km. 80 dir. savona - GENOVA GE",
+    "bnd":"TotalErg",
+    "sameAs":""
+  },
+  {
+    "lon":8.949962,
+    "lat":44.420486,
+    "id":15739,
+    "name":"Eni 54290",
+    "addr":"CORSO ALESSANDRO DE STEFANIS 215 R, 16139 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  },
+  {
+    "lon":8.965693,
+    "lat":44.408826,
+    "id":10006,
+    "name":"servizio q8",
+    "addr":"via aldo manuzio 40h,  - GENOVA GE",
+    "bnd":"Q8",
+    "sameAs":""
+  },
+  {
+    "lon":8.902504,
+    "lat":44.471708,
+    "id":13581,
+    "name":"totalerg",
+    "addr":"VIA SAN QUIRICO 20, 16152 - GENOVA GE",
+    "bnd":"TotalErg",
+    "sameAs":""
+  },
+  {
+    "lon":8.866314,
+    "lat":44.415630,
+    "id":5528,
+    "name":"GENOVA Via Cornigliano 189/R",
+    "addr":"Via Cornigliano 189 GENOVA, GE 16126 - GENOVA GE",
+    "bnd":"TotalErg",
+    "sameAs":""
+  },
+  {
+    "lon":8.948904,
+    "lat":44.397737,
+    "id":28765,
+    "name":"ITALFUEL",
+    "addr":"VIA CECCHI 29/AR 16129 - GENOVA GE",
+    "bnd":"PompeBianche",
+    "sameAs":""
+  },
+  {
+    "lon":8.894657,
+    "lat":44.413986,
+    "id":6390,
+    "name":"GENOVA VASCO DA GAMA",
+    "addr":"VASCO DA GAMA SNC GENOVA, GE 16149 - GENOVA GE",
+    "bnd":"Q8",
+    "sameAs":""
+  },
+  {
+    "lon":8.745936,
+    "lat":44.428346,
+    "id":24398,
+    "name":"stazione di servizio Total Erg",
+    "addr":"VIA CARLO CAMOZZINI 112I/R 16158 - GENOVA GE",
+    "bnd":"TotalErg",
+    "sameAs":""
+  },
+  {
+    "lon":8.982164,
+    "lat":44.393880,
+    "id":11602,
+    "name":"GENOVA-VIA DEI MILLE 9/R ANG. TABARCA",
+    "addr":"VIA DEI MILLE 9/R ANG. TABARCA 9/R GENOVA, GE 16147 - GENOVA GE",
+    "bnd":"Shell",
+    "sameAs":""
+  },
+  {
+    "lon":8.984869,
+    "lat":44.454575,
+    "id":13198,
+    "name":"Eni Molassana 01068",
+    "addr":"VIA MOLASSANA 169 R, 16138 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  },
+  {
+    "lon":8.901438,
+    "lat":44.409072,
+    "id":20824,
+    "name":"EUROPAM",
+    "addr":"VIA DI FRANCIA 56 R, 16149 - GENOVA GE",
+    "bnd":"PompeBianche",
+    "sameAs":""
+  },
+  {
+    "lon":9.014886,
+    "lat":44.388878,
+    "id":9511,
+    "name":"Q8",
+    "addr":"CORSO EUROPA 1500, 16166 - GENOVA GE",
+    "bnd":"Q8",
+    "sameAs":"22331"
+  },
+  {
+    "lon":8.905306,
+    "lat":44.465435,
+    "id":16546,
+    "name":"ENI MANCINI",
+    "addr":"VIA FERRIERE BRUZZO 13, 16162 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  },
+  {
+    "lon":8.855536,
+    "lat":44.424987,
+    "id":8989,
+    "name":"Q8 di Calzona Simone",
+    "addr":"Via borzoli 13r - GENOVA GE",
+    "bnd":"Q8",
+    "sameAs":""
+  },
+  {
+    "lon":8.944411,
+    "lat":44.408941,
+    "id":23521,
+    "name":"GENOVA PIAZZA BRIGNOLE 28/R",
+    "addr":"PIAZZA BRIGNOLE 28/R - GENOVA GE",
+    "bnd":"Q8",
+    "sameAs":""
+  },
+  {
+    "lon":8.980642,
+    "lat":44.405616,
+    "id":22030,
+    "name":"TOTALERG di ROCCA",
+    "addr":"CORSO EUROPA 313-311, 16132 - GENOVA GE",
+    "bnd":"TotalErg",
+    "sameAs":""
+  },
+  {
+    "lon":8.964157,
+    "lat":44.442663,
+    "id":26230,
+    "name":"VEGNI MASSIMO",
+    "addr":"VIA EMILIA 6/A 16138 - GENOVA GE",
+    "bnd":"Api-Ip",
+    "sameAs":""
+  },
+  {
+    "lon":8.858715,
+    "lat":44.419910,
+    "id":6351,
+    "name":"DISTRIBUTORE AGIP DI CROVEETI ALBERTO",
+    "addr":"VIA ANGELO SIFFREDI 62 R, 16153 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  },
+  {
+    "lon":8.910348,
+    "lat":44.418552,
+    "id":8714,
+    "name":"vella roberto",
+    "addr":"VIA BOLOGNA 1/F, 16127 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  },
+  {
+    "lon":8.958158,
+    "lat":44.394074,
+    "id":14802,
+    "name":"IP",
+    "addr":"Via Gobetti ang Via Zara  - GENOVA GE",
+    "bnd":"Api-Ip",
+    "sameAs":""
+  },
+  {
+    "lon":8.901697,
+    "lat":44.489685,
+    "id":26913,
+    "name":"PV 55863",
+    "addr":"VIA SAN QUIRICO 160/R 16163 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  },
+  {
+    "lon":9.014870,
+    "lat":44.388898,
+    "id":22331,
+    "name":"GENOVA QUINTO CORSO EUROPA 1500",
+    "addr":"CORSO EUROPA 1500 - GENOVA GE",
+    "bnd":"Q8",
+    "sameAs":"9511"
+  },
+  {
+    "lon":8.948819,
+    "lat":44.418668,
+    "id":13923,
+    "name":"IP",
+    "addr":"PIAZZALE MARASSI null, 16139 - GENOVA GE",
+    "bnd":"Api-Ip",
+    "sameAs":""
+  },
+  {
+    "lon":8.856947,
+    "lat":44.426857,
+    "id":9259,
+    "name":"Q8 Ferretti Walter",
+    "addr":"Via Borzoli 39 C  - GENOVA GE",
+    "bnd":"Q8",
+    "sameAs":""
+  },
+  {
+    "lon":8.804395,
+    "lat":44.423998,
+    "id":16359,
+    "name":"alloisio G&M",
+    "addr":"VIA PEGLI 54 R, 16156 - GENOVA GE",
+    "bnd":"Esso",
+    "sameAs":""
+  },
+  {
+    "lon":8.986594,
+    "lat":44.406231,
+    "id":14179,
+    "name":"esso",
+    "addr":"VIA POSALUNGA 46 A R, 16132 - GENOVA GE",
+    "bnd":"Esso",
+    "sameAs":""
+  },
+  {
+    "lon":8.928279,
+    "lat":44.405402,
+    "id":24592,
+    "name":"GENOVA - QUADRIO 12A/R",
+    "addr":"GENOVA - VIA QUADRIO 12A/R - GENOVA GE",
+    "bnd":"Api-Ip",
+    "sameAs":"17780"
+  },
+  {
+    "lon":8.758720,
+    "lat":44.428695,
+    "id":15440,
+    "name":"voltri1118",
+    "addr":"VIA VOLTRI 40R, 16158 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  },
+  {
+    "lon":9.046506,
+    "lat":44.383766,
+    "id":10004,
+    "name":"tamoil 8264",
+    "addr":"statale 1 Via Aurelia Km. 1 dir. ponente - GENOVA GE",
+    "bnd":"Tamoil",
+    "sameAs":""
+  },
+  {
+    "lon":8.898115,
+    "lat":44.407079,
+    "id":16616,
+    "name":"impianto eni di carlo rizzo",
+    "addr":"VIA CANTORE (CHIOSCO AGIP) null, 16149 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":"22187"
+  },
+  {
+    "lon":8.947571,
+    "lat":44.414204,
+    "id":16823,
+    "name":"MANIN CARBURANTI",
+    "addr":"PIAZZA MANIN 20 ROSSO, 16122 - GENOVA GE",
+    "bnd":"Esso",
+    "sameAs":""
+  },
+  {
+    "lon":8.977994,
+    "lat":44.407406,
+    "id":13005,
+    "name":"esso Escobar Carlos",
+    "addr":"genova corso europa 211  16132 - GENOVA GE",
+    "bnd":"Esso",
+    "sameAs":""
+  },
+  {
+    "lon":8.904234,
+    "lat":44.470181,
+    "id":23605,
+    "name":"Serra RiccÃ²",
+    "addr":"VIA SAN QUIRICO 1A, 16163 - GENOVA GE",
+    "bnd":"TotalErg",
+    "sameAs":"23604"
+  },
+  {
+    "lon":8.954239,
+    "lat":44.401338,
+    "id":16210,
+    "name":"Maugeri Francesco impianto eni 51532",
+    "addr":"VIA POZZO 12R, 16100 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  },
+  {
+    "lon":8.828920,
+    "lat":44.425897,
+    "id":13222,
+    "name":"TOTALERG  Dasso",
+    "addr":"VIA MULTEDO DI PEGLI 80, 16155 - GENOVA GE",
+    "bnd":"TotalErg",
+    "sameAs":""
+  },
+  {
+    "lon":8.955277,
+    "lat":44.404685,
+    "id":21708,
+    "name":"STAR OIL",
+    "addr":"VIA TOLEMAIDE 13 R, 16129 - GENOVA GE",
+    "bnd":"PompeBianche",
+    "sameAs":"28766"
+  },
+  {
+    "lon":8.744201,
+    "lat":44.455089,
+    "id":3820,
+    "name":"TURCHINO OVEST",
+    "addr":"A26 (GE) VOLTRI-GRAVELLONA T., Km. 6+800, Sud  - MELE GE",
+    "bnd":"TotalErg",
+    "sameAs":""
+  },
+  {
+    "lon":8.898134,
+    "lat":44.407076,
+    "id":22187,
+    "name":"Q8  di Perassolo Emilio & c snc",
+    "addr":"LUNGOMARE CANEPA GIUSEPPE 2 ROSSO, 16149 - GENOVA GE",
+    "bnd":"Q8",
+    "sameAs":"16616"
+  },
+  {
+    "lon":8.987911,
+    "lat":44.400383,
+    "id":10973,
+    "name":"ip",
+    "addr":"Corso Europa 635, 16148 Genova - GENOVA GE",
+    "bnd":"Api-Ip",
+    "sameAs":""
+  },
+  {
+    "lon":8.907660,
+    "lat":44.418644,
+    "id":7164,
+    "name":"stazione servizio ENI",
+    "addr":"VIA BOLOGNA 24 M/R 16127 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  },
+  {
+    "lon":8.969590,
+    "lat":44.405359,
+    "id":14911,
+    "name":"inp.agip 1046",
+    "addr":"CORSO EUROPA 11, 16132 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  },
+  {
+    "lon":8.904683,
+    "lat":44.464365,
+    "id":7855,
+    "name":"Esso Andrea e Michele Gimondo s.n.c",
+    "addr":"VIA E. FAGGIONI 23 16162 - GENOVA GE",
+    "bnd":"Esso",
+    "sameAs":""
+  },
+  {
+    "lon":8.823122,
+    "lat":44.425171,
+    "id":9801,
+    "name":"CASTELLI SANDROE ROMANO SNC",
+    "addr":"statale 1 Via Aurelia, Km. 550, dir. ponente - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  },
+  {
+    "lon":8.768917,
+    "lat":44.426251,
+    "id":5509,
+    "name":"1018 GENOVA Voltri",
+    "addr":"DistriparK Europa   16158 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  },
+  {
+    "lon":9.018141,
+    "lat":44.386894,
+    "id":24590,
+    "name":"GENOVA - EUROPA 1624",
+    "addr":"GENOVA - CORSO EUROPA 1624 - GENOVA GE",
+    "bnd":"Api-Ip",
+    "sameAs":"16444"
+  },
+  {
+    "lon":8.979951,
+    "lat":44.453826,
+    "id":17781,
+    "name":"G.M. di Gugino Vincenzo & C. snc",
+    "addr":"PONTE ALEXANDER FLEMING 1, 16138 - GENOVA GE",
+    "bnd":"Api-Ip",
+    "sameAs":""
+  },
+  {
+    "lon":8.922459,
+    "lat":44.418680,
+    "id":22164,
+    "name":"LANGELLOTTI INNOCENZO",
+    "addr":"PIAZZA FERREIRA 185, 16135 - GENOVA GE",
+    "bnd":"Api-Ip",
+    "sameAs":""
+  },
+  {
+    "lon":8.966959,
+    "lat":44.391618,
+    "id":24402,
+    "name":"GENOVA CORSO ITALIA 36",
+    "addr":"CORSO ITALIA 36 - GENOVA GE",
+    "bnd":"Q8",
+    "sameAs":""
+  },
+  {
+    "lon":8.955234,
+    "lat":44.411606,
+    "id":12637,
+    "name":"IP di Piperissa Simone",
+    "addr":"CORSO SARDEGNA 261r , 16143 - GENOVA GE",
+    "bnd":"Api-Ip",
+    "sameAs":"25362;25363"
+  },
+  {
+    "lon":8.890673,
+    "lat":44.445299,
+    "id":23680,
+    "name":"eni",
+    "addr":"VIA PERLASCA 99 16161 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  },
+  {
+    "lon":8.956007,
+    "lat":44.428599,
+    "id":19363,
+    "name":"AGIP",
+    "addr":"LUNGO BISAGNO ISTRIA 29 R., 16141 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  },
+  {
+    "lon":8.976027,
+    "lat":44.398398,
+    "id":20293,
+    "name":"PARISI ELIO",
+    "addr":"VIA ORSINI 14 R, 16146 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  },
+  {
+    "lon":8.866335,
+    "lat":44.433154,
+    "id":8758,
+    "name":"api anonima petroli italiana s.p.a",
+    "addr":"VIA BORZOLI 136 R 16153 - GENOVA GE",
+    "bnd":"PompeBianche",
+    "sameAs":""
+  },
+  {
+    "lon":8.833469,
+    "lat":44.426714,
+    "id":4051,
+    "name":"ENI",
+    "addr":"VIA MULTEDO DI PEGLI 7 R, 16155 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  },
+  {
+    "lon":9.025807,
+    "lat":44.383017,
+    "id":16357,
+    "name":"DISTRIBUTORE ESSO ITALIANA",
+    "addr":"VIA MURCAROLO 2ER., 16167 - GENOVA GE",
+    "bnd":"Esso",
+    "sameAs":""
+  },
+  {
+    "lon":8.928291,
+    "lat":44.405393,
+    "id":17780,
+    "name":"Oronero",
+    "addr":"Corso m.quadrio 12r - GENOVA GE",
+    "bnd":"Api-Ip",
+    "sameAs":"24592"
+  },
+  {
+    "lon":8.963412,
+    "lat":44.393151,
+    "id":11601,
+    "name":"GENOVA-CORSO ITALIA 34B/ROSSO",
+    "addr":"CORSO ITALIA 34B/ROSSO 34/B/ROSSO GENOVA, GE 16145 - GENOVA GE",
+    "bnd":"Shell",
+    "sameAs":""
+  },
+  {
+    "lon":8.892303,
+    "lat":44.409133,
+    "id":4041,
+    "name":"impianto eni 1023",
+    "addr":"PIAZZETTA DEI MINOLLI 7 R, 16149 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  },
+  {
+    "lon":9.023563,
+    "lat":44.385112,
+    "id":25312,
+    "name":"Ghiorzo Valter",
+    "addr":"CORSO EUROPA 1773, 16166 - GENOVA GE",
+    "bnd":"Api-Ip",
+    "sameAs":"10949"
+  },
+  {
+    "lon":8.938246,
+    "lat":44.414750,
+    "id":16645,
+    "name":"Stazione di servizio di Liguori Daniele",
+    "addr":"CORSO MAGENTA - STAZ. IP null, 16125 - GENOVA GE",
+    "bnd":"Api-Ip",
+    "sameAs":""
+  },
+  {
+    "lon":8.984606,
+    "lat":44.403953,
+    "id":17512,
+    "name":"EUROPAM SRL",
+    "addr":"VIA TIMAVO 70R, 16132 - GENOVA GE",
+    "bnd":"Api-Ip",
+    "sameAs":""
+  },
+  {
+    "lon":8.897932,
+    "lat":44.486291,
+    "id":23005,
+    "name":"Distributore Europam",
+    "addr":"VIA FIORENZO SEMINI 8 16163 - GENOVA GE",
+    "bnd":"PompeBianche",
+    "sameAs":""
+  },
+  {
+    "lon":8.825322,
+    "lat":44.425160,
+    "id":15342,
+    "name":"Staz di Serv. Esso di Santoro L.",
+    "addr":"VIA RONCHI 38R, 16156 - GENOVA GE",
+    "bnd":"Esso",
+    "sameAs":""
+  },
+  {
+    "lon":8.944304,
+    "lat":44.398860,
+    "id":5413,
+    "name":"eni - Genova - V.le Brigate Partigiane SNC",
+    "addr":"V.le Brigate Partigiane SNC Genova, GE 16129 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  },
+  {
+    "lon":8.751631,
+    "lat":44.431325,
+    "id":18979,
+    "name":"Stazione IP di Bona Riccardo (Benzine & Tabacchi)",
+    "addr":"VIA LEMERLE 23R - GENOVA GE",
+    "bnd":"Api-Ip",
+    "sameAs":""
+  },
+  {
+    "lon":9.045983,
+    "lat":44.392482,
+    "id":23908,
+    "name":"S.ILARIO SUD",
+    "addr":"A12 GENOVA-SESTRI L., Km. 14, EST 16167 - GENOVA GE",
+    "bnd":"Q8",
+    "sameAs":""
+  },
+  {
+    "lon":8.996876,
+    "lat":44.449014,
+    "id":18546,
+    "name":"MASSIMILIANO BARETTI S.A.S.",
+    "addr":"VIA STRUPPA 80, 16165 - GENOVA GE",
+    "bnd":"TotalErg",
+    "sameAs":""
+  },
+  {
+    "lon":8.910640,
+    "lat":44.413471,
+    "id":27380,
+    "name":"dinegro carburanti sas",
+    "addr":"PIAZZA DINEGRO 21 R. 16126 - GENOVA GE",
+    "bnd":"Esso",
+    "sameAs":""
+  },
+  {
+    "lon":9.023519,
+    "lat":44.385113,
+    "id":10949,
+    "name":"stazione di rifornimento API - IP",
+    "addr":"CORSO EUROPA 1773, 16132 - GENOVA GE",
+    "bnd":"Api-Ip",
+    "sameAs":"25312"
+  },
+  {
+    "lon":8.893053,
+    "lat":44.434083,
+    "id":15907,
+    "name":"bruzzone e imareti snc",
+    "addr":"VIA CANEPARI 229 R, 16159 - GENOVA GE",
+    "bnd":"Tamoil",
+    "sameAs":""
+  },
+  {
+    "lon":8.961730,
+    "lat":44.435576,
+    "id":5062,
+    "name":"ME-TRA srl",
+    "addr":"VIA PIACENZA 141-143R 16138 - GENOVA GE",
+    "bnd":"PompeBianche",
+    "sameAs":""
+  },
+  {
+    "lon":9.013566,
+    "lat":44.389617,
+    "id":26858,
+    "name":"01090 Corso Europa GE",
+    "addr":"CORSO EUROPA (LATO MONTE) 1462 16166 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":"17184"
+  },
+  {
+    "lon":8.825002,
+    "lat":44.425088,
+    "id":25364,
+    "name":"Q8",
+    "addr":"VIA RONCHI 40 16155 - GENOVA GE",
+    "bnd":"Q8",
+    "sameAs":""
+  },
+  {
+    "lon":8.868337,
+    "lat":44.415697,
+    "id":17224,
+    "name":"stazione di servizio eni di mancini alessandro",
+    "addr":"PIAZZA M. CONTI 25 R, 16152 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  },
+  {
+    "lon":9.020434,
+    "lat":44.449383,
+    "id":17298,
+    "name":"DELLE PIANE E CAU S.n.c.",
+    "addr":"Via Struppa, 113/a - Genova  - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  },
+  {
+    "lon":8.993000,
+    "lat":44.398748,
+    "id":8682,
+    "name":"stazione di servizio ESSO di Zanoni",
+    "addr":"CORSO EUROPA 844 16148 - GENOVA GE",
+    "bnd":"Esso",
+    "sameAs":""
+  },
+  {
+    "lon":8.903074,
+    "lat":44.410500,
+    "id":5942,
+    "name":"GENOVA Via Antonio Cantore 24/R",
+    "addr":"Via Antonio Cantore  24/R GENOVA, GE 16149 - GENOVA GE",
+    "bnd":"TotalErg",
+    "sameAs":""
+  },
+  {
+    "lon":8.947596,
+    "lat":44.398060,
+    "id":13180,
+    "name":"IP",
+    "addr":"via Cecchi 54a/r, Genova - GENOVA GE",
+    "bnd":"Api-Ip",
+    "sameAs":""
+  },
+  {
+    "lon":8.900017,
+    "lat":44.456834,
+    "id":7856,
+    "name":"Esso Andrea e Michele Gimondo s.n.c",
+    "addr":"VIA RETA COSTANTINO - NOVA 32 16162 - GENOVA GE",
+    "bnd":"Esso",
+    "sameAs":""
+  },
+  {
+    "lon":8.993048,
+    "lat":44.389819,
+    "id":23707,
+    "name":"GENOVA-QUARTO VIA 5 MAGGIO, 79 R - STAZ.Q8",
+    "addr":"VIA 5 MAGGIO, 79 R - GENOVA GE",
+    "bnd":"Q8",
+    "sameAs":""
+  },
+  {
+    "lon":8.972904,
+    "lat":44.449932,
+    "id":21390,
+    "name":"Planet Oil Via Emilia",
+    "addr":"VIA EMILIA 66 R, 16138 - GENOVA GE",
+    "bnd":"Api-Ip",
+    "sameAs":""
+  },
+  {
+    "lon":8.978990,
+    "lat":44.406969,
+    "id":15776,
+    "name":"Stazione Agip di Gulisano Angelo",
+    "addr":"CORSO EUROPA 213, 16132 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  },
+  {
+    "lon":8.855494,
+    "lat":44.424984,
+    "id":23764,
+    "name":"SESTRI PONENTE VIA BORZOLI 13 R",
+    "addr":"VIA BORZOLI 13 R - GENOVA GE",
+    "bnd":"Q8",
+    "sameAs":""
+  },
+  {
+    "lon":8.854314,
+    "lat":44.415864,
+    "id":15755,
+    "name":"erg bielleesse",
+    "addr":"VIA PIONIERI E AVIATORI D'ITALIA 10, 16154 - GENOVA GE",
+    "bnd":"TotalErg",
+    "sameAs":""
+  },
+  {
+    "lon":9.013614,
+    "lat":44.389622,
+    "id":17184,
+    "name":"ENI 01090",
+    "addr":"CORSO EUROPA 1462, 16132 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":"26858"
+  },
+  {
+    "lon":8.949719,
+    "lat":44.407460,
+    "id":13814,
+    "name":"impianto eni cod 01038",
+    "addr":"VIA CANEVARI 1R, 16137 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  },
+  {
+    "lon":8.962520,
+    "lat":44.394383,
+    "id":10023,
+    "name":"a&V service snc",
+    "addr":"via renzo righetti,1r 16145 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  },
+  {
+    "lon":8.964224,
+    "lat":44.402038,
+    "id":10695,
+    "name":"Distributore ESSO",
+    "addr":"VIA MONTE ZOVETTO 25 R., 16145 - GENOVA GE",
+    "bnd":"Esso",
+    "sameAs":""
+  },
+  {
+    "lon":8.891283,
+    "lat":44.426121,
+    "id":13263,
+    "name":"Tony & Luca snc",
+    "addr":"VIA W.FILLAK 168/R., 16159 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  },
+  {
+    "lon":8.905305,
+    "lat":44.465845,
+    "id":6387,
+    "name":"GENOVA VIA G. COLANO",
+    "addr":"VIA G. COLANO SNC GENOVA, GE 16162 - GENOVA GE",
+    "bnd":"Q8",
+    "sameAs":""
+  },
+  {
+    "lon":8.974447,
+    "lat":44.390822,
+    "id":16841,
+    "name":"agip mancini carmelo",
+    "addr":"VIA CAVALLOTTI FELICE 1 G R, 16146 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  },
+  {
+    "lon":8.904254,
+    "lat":44.470173,
+    "id":23604,
+    "name":"Morigallo",
+    "addr":"VIA SAN QUIRICO  1A 16163 - GENOVA GE",
+    "bnd":"TotalErg",
+    "sameAs":"23605"
+  },
+  {
+    "lon":8.829900,
+    "lat":44.426300,
+    "id":17680,
+    "name":"GE MULTEDO",
+    "addr":"VIA MULTEDO DI PEGLI 11/R, 16155 - GENOVA GE",
+    "bnd":"Api-Ip",
+    "sameAs":""
+  },
+  {
+    "lon":8.990147,
+    "lat":44.408195,
+    "id":15291,
+    "name":"Tamoil",
+    "addr":"VIA TANINI GIULIO 24 R, 16133 - GENOVA GE",
+    "bnd":"Tamoil",
+    "sameAs":""
+  },
+  {
+    "lon":8.993415,
+    "lat":44.398557,
+    "id":11599,
+    "name":"GENOVA-C.SO EUROPA 852",
+    "addr":"C.SO EUROPA 852 GENOVA, GE 16148 - GENOVA GE",
+    "bnd":"Shell",
+    "sameAs":""
+  },
+  {
+    "lon":8.978392,
+    "lat":44.452117,
+    "id":23130,
+    "name":"GENOVA G. ADAMOLI 361/2",
+    "addr":"G. ADAMOLI 361/2 - GENOVA GE",
+    "bnd":"Q8",
+    "sameAs":""
+  },
+  {
+    "lon":8.777644,
+    "lat":44.427295,
+    "id":7348,
+    "name":"ENI 01082",
+    "addr":"VIA PRA' 159 R., 16157 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  },
+  {
+    "lon":8.900771,
+    "lat":44.411151,
+    "id":3910,
+    "name":"LA LANTERNA EST",
+    "addr":"Autostrada A7 SERRAVALLE-GENOVA, Km. 133+200, dir. Nord - GENOVA GE",
+    "bnd":"Shell",
+    "sameAs":""
+  },
+  {
+    "lon":8.955188,
+    "lat":44.411609,
+    "id":25363,
+    "name":"Q8",
+    "addr":"CORSO SARDEGNA 261 R, 16142 - GENOVA GE",
+    "bnd":"Q8",
+    "sameAs":"25362;12637"
+  },
+  {
+    "lon":8.888635,
+    "lat":44.421804,
+    "id":17679,
+    "name":"GE FILLAK",
+    "addr":"VIA WALTER FILLAK 189, 16151 - GENOVA GE",
+    "bnd":"Api-Ip",
+    "sameAs":""
+  },
+  {
+    "lon":8.953153,
+    "lat":44.411437,
+    "id":12292,
+    "name":"Geraci Roberto",
+    "addr":"VIA MORESCO null, 16137 - GENOVA GE",
+    "bnd":"Api-Ip",
+    "sameAs":""
+  },
+  {
+    "lon":8.834010,
+    "lat":44.427124,
+    "id":23837,
+    "name":"GENOVA VIA MULTEDO, 3",
+    "addr":"VIA MULTEDO, 3 - GENOVA GE",
+    "bnd":"Q8",
+    "sameAs":""
+  },
+  {
+    "lon":8.867192,
+    "lat":44.415636,
+    "id":9225,
+    "name":"ESSO CORNIGLIANO",
+    "addr":"VIA CORNIGLIANO 183 B R 16152 - GENOVA GE",
+    "bnd":"Esso",
+    "sameAs":""
+  },
+  {
+    "lon":9.045098,
+    "lat":44.383982,
+    "id":27525,
+    "name":"GENOVA - NERVI",
+    "addr":"GENOVA fraz NERVI - VIA DONATO SOMMA 51R 16167 - GENOVA GE",
+    "bnd":"Api-Ip",
+    "sameAs":""
+  },
+  {
+    "lon":8.950962,
+    "lat":44.404965,
+    "id":21391,
+    "name":"Planet Oil Via Tolemaide",
+    "addr":"VIA TOLEMAIDE 7 R, 16129 - GENOVA GE",
+    "bnd":"Api-Ip",
+    "sameAs":""
+  },
+  {
+    "lon":8.946170,
+    "lat":44.401009,
+    "id":7512,
+    "name":"SELF CENTER ZONZA",
+    "addr":"VIA DIAZ ARMANDO 23B/R 16121 - GENOVA GE",
+    "bnd":"Api-Ip",
+    "sameAs":""
+  },
+  {
+    "lon":8.980903,
+    "lat":44.397266,
+    "id":13971,
+    "name":"esso",
+    "addr":"VIA ISONZO 1 R, 16147 - GENOVA GE",
+    "bnd":"Esso",
+    "sameAs":""
+  },
+  {
+    "lon":8.894275,
+    "lat":44.449420,
+    "id":26268,
+    "name":"P. & R. snc",
+    "addr":"VIA TEGLIA 19R 16161 - GENOVA GE",
+    "bnd":"Api-Ip",
+    "sameAs":""
+  },
+  {
+    "lon":8.954738,
+    "lat":44.428128,
+    "id":18465,
+    "name":"DO.FAR S.N.C. DI FARCINTO G. E C.",
+    "addr":"VIA LUNGOBISAGNO ISTRIA 25A/R, 16141 - GENOVA GE",
+    "bnd":"Esso",
+    "sameAs":""
+  },
+  {
+    "lon":8.955203,
+    "lat":44.411634,
+    "id":25362,
+    "name":"IP",
+    "addr":"CORSO SARDEGNA 261 R, 16142 - GENOVA GE",
+    "bnd":"Api-Ip",
+    "sameAs":"12637;25363"
+  },
+  {
+    "lon":8.897657,
+    "lat":44.485419,
+    "id":27976,
+    "name":"Stazione IES",
+    "addr":"VIA GASTALDI GIROLAMO 30-32 RR 16163 - GENOVA GE",
+    "bnd":"Ies",
+    "sameAs":""
+  },
+  {
+    "lon":8.862169,
+    "lat":44.415440,
+    "id":6806,
+    "name":"8026",
+    "addr":"VIA SIFFREDI 12 ROSSO, 16153 - GENOVA GE",
+    "bnd":"Tamoil",
+    "sameAs":""
+  },
+  {
+    "lon":9.045729,
+    "lat":44.393006,
+    "id":3474,
+    "name":"SANT'ILARIO NORD",
+    "addr":"Autostrada A12 GENOVA-SESTRI L., Km. 14+500, dir. Ovest - GENOVA GE",
+    "bnd":"TotalErg",
+    "sameAs":""
+  },
+  {
+    "lon":8.949929,
+    "lat":44.407686,
+    "id":19294,
+    "name":"Pasquale Sabrina impianto Totalerg",
+    "addr":"VIA CANEVARI 1 A, 16137 - GENOVA GE",
+    "bnd":"TotalErg",
+    "sameAs":""
+  },
+  {
+    "lon":8.747459,
+    "lat":44.428648,
+    "id":12022,
+    "name":"dueaservice snc",
+    "addr":"statale 1 Via Aurelia, Km. 2, dir. voltri - GENOVA GE",
+    "bnd":"TotalErg",
+    "sameAs":""
+  },
+  {
+    "lon":8.885780,
+    "lat":44.434853,
+    "id":26128,
+    "name":"1071 GENOVA PERRONE",
+    "addr":"CORSO PERRONE 98 16152 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  },
+  {
+    "lon":9.008481,
+    "lat":44.392302,
+    "id":25647,
+    "name":"stazione di servizio Antonella",
+    "addr":"CORSO EUROPA 1259, 16148 - GENOVA GE",
+    "bnd":"Api-Ip",
+    "sameAs":""
+  },
+  {
+    "lon":8.935947,
+    "lat":44.414386,
+    "id":7343,
+    "name":"ENI 51506",
+    "addr":"CORSO PAGANINI 4 16125 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  },
+  {
+    "lon":9.000463,
+    "lat":44.393956,
+    "id":22139,
+    "name":"ESSO & TIGERBAR",
+    "addr":"CORSO EUROPA 1085, 16148 - GENOVA GE",
+    "bnd":"Esso",
+    "sameAs":""
+  },
+  {
+    "lon":8.901107,
+    "lat":44.470443,
+    "id":5943,
+    "name":"GENOVA Via Romairone 6/R",
+    "addr":"Via Romairone  6/R GENOVA, GE 16163 - GENOVA GE",
+    "bnd":"TotalErg",
+    "sameAs":""
+  },
+  {
+    "lon":8.837041,
+    "lat":44.427630,
+    "id":11600,
+    "name":"GENOVA-SESTRI PONENTE VIA MERANO 101/G/R",
+    "addr":"SESTRI PONENTE VIA MERANO 101/G/R GENOVA, GE 16154 - GENOVA GE",
+    "bnd":"Shell",
+    "sameAs":""
+  },
+  {
+    "lon":8.893186,
+    "lat":44.407802,
+    "id":21456,
+    "name":"SPAGNOLO E AMATO SNC",
+    "addr":"CALATA MOGADISCIO null, 16100 - GENOVA GE",
+    "bnd":"Esso",
+    "sameAs":""
+  },
+  {
+    "lon":8.858879,
+    "lat":44.419023,
+    "id":6350,
+    "name":"STAZIONE DI SERVIZIO ENI DI CROVETTI ALBERTO",
+    "addr":"VIA SIFFREDI ANGELO 54R,NOVA 16153 - GENOVA GE",
+    "bnd":"AgipEni",
+    "sameAs":""
+  }
+]

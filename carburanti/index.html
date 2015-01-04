@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Prezzi Benzina</title>
+
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+<link rel="stylesheet" href="http://map.genova.it/script/map.css" />
+    <!-- Custom styles for this template -->
+    <style>
+	ul.list{list-style:none;}
+	</style>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+
+            <div id="map"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js" ></script>
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-hash/v0.2.1/leaflet-hash.js'></script>
+
+<script src="benzCorr.js" ></script>
+
+<script>
+var lat=44.4529, lon=8.9206, zoom=12;
+//see https://github.com/sabas/carburantiMiSE/blob/master/README.md#note
+var regione=18, provincia='GE', comune='Genova';
+
+var map = L.map('map',{doubleClickZoom:false}).setView([lat,lon], zoom);
+var hash = new L.Hash(map);
+
+var laymarkers=L.layerGroup();
+var bounds=L.latLngBounds([]);
+
+
+L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+getData(regione,provincia,comune);
+
+
+var CIcon = L.Icon.extend({
+    options: {
+        iconSize:     [32, 37],
+        iconAnchor:   [16, 37],
+        popupAnchor:  [0, -36]
+    }
+});
+
+
+function getData(regio,provi,citta){
+    $.ajax({
+      type: "GET",
+      url: "http://toolserver.openstreetmap.it/carburantiMiSE/localitaProxy.php",
+      data: {"r": regio, "p":provi,"t":citta},
+      success: function(data){        
+          if (map.hasLayer(laymarkers)) {
+            //console.log("Clear previous POI layer...");
+            laymarkers.clearLayers();
+          };
+
+          $.each(data.array,function(id,entry){
+             if(entry.id in corr) var correzione=corr[entry.id];
+
+              var lat=0;
+              var lon=0;
+              if(entry.id in corr){
+                lat=correzione.lat;
+                lon=correzione.lon;
+                if (corr[entry.id]['sameAs']!=""){
+
+                    var date1 = new Date(entry.dIns);
+                    var date2 = Date.now();
+                    var timeDiff = date2-date1;
+                    var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24)); 
+                    if(diffDays > 90) {console.log('Discarded '+entry.id); return;}
+}
+                }  
+              else{
+                lat=entry.lat;
+                lon=entry.lon;
+                console.log('Discarded '+entry.id +'at '+lat+','+lon); return;
+                }
+
+
+              var marker=L.marker([lat,lon],{icon: new CIcon({iconUrl: 'img/'+entry.bnd+'_th3.png'})});
+              bounds.extend([lat,lon]);
+              
+              var head="<b>Nome</b>: "+entry.name+"<br/><b>Brand</b>: "+entry.bnd+"<br/><b>Indirizzo</b>: "+entry.addr+"<br/><b>Aggiornato al</b>: "+entry.dIns+"<br/>";
+              var prezzi="<table>";
+              prezzi+="<tr><th>Tipo</th><th>Prezzo</th><th>SelfService</th></tr>";
+              $.each(entry.carburanti,function(id,c){
+              var self='no';
+              if (c.isSelf==1) self="si";
+                prezzi+="<tr><td>"+c.carb+"</td><td>"+c.prezzo+"</td><td>"+self+"</td></tr>";
+              });
+              prezzi+="</table>";
+              marker.bindPopup(head+prezzi);
+              
+              marker.addTo(laymarkers);
+          });
+          laymarkers.addTo(map);
+      },
+      dataType: 'json'
+    });
+}
+</script>
+</body>
+</html>
