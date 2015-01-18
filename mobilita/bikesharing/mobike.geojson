@@ -1,0 +1,123 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2015-01-18T12:16:01Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/367871692",
+      "properties": {
+        "@id": "node/367871692",
+        "amenity": "bicycle_rental",
+        "capacity": "20",
+        "contact:phone": "+39 800 132995",
+        "operator": "MoBike",
+        "url": "http://www.bicincitta.com/citta_v3.asp?id=33&pag=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9460774,
+          44.4060287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/367871974",
+      "properties": {
+        "@id": "node/367871974",
+        "amenity": "bicycle_rental",
+        "capacity": "12",
+        "contact:phone": "+39 800 132995",
+        "operator": "MoBike",
+        "url": "http://www.bicincitta.com/citta_v3.asp?id=33&pag=1",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9398954,
+          44.4059508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/367872270",
+      "properties": {
+        "@id": "node/367872270",
+        "amenity": "bicycle_rental",
+        "capacity": "12",
+        "contact:phone": "+39 800 132995",
+        "operator": "MoBike",
+        "url": "http://www.bicincitta.com/citta_v3.asp?id=33&pag=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.928507,
+          44.4085072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/367872841",
+      "properties": {
+        "@id": "node/367872841",
+        "amenity": "bicycle_rental",
+        "capacity": "12",
+        "contact:phone": "+39 800 132995",
+        "operator": "MoBike",
+        "url": "http://www.bicincitta.com/citta_v3.asp?id=33&pag=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9074107,
+          44.4108358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/368223205",
+      "properties": {
+        "@id": "node/368223205",
+        "amenity": "bicycle_rental",
+        "capacity": "12",
+        "contact:phone": "+39 800 132995",
+        "operator": "MoBike",
+        "url": "http://www.bicincitta.com/citta_v3.asp?id=33&pag=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9344473,
+          44.407672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/390996823",
+      "properties": {
+        "@id": "node/390996823",
+        "amenity": "bicycle_rental",
+        "capacity": "12",
+        "contact:phone": "+39 800 132995",
+        "operator": "MoBike",
+        "url": "http://www.bicincitta.com/citta_v3.asp?id=33&pag=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9196645,
+          44.415893
+        ]
+      }
+    }
+  ]
+}
